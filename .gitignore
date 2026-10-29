@@ -1,0 +1,18 @@
+﻿# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Logs/
+*.csproj
+*.sln
+*.slnx
+*.unityproj
+.vs/
+*.user
+*.userprefs
+
+# Visual Studio / Rider
+.vscode/
+.idea/
