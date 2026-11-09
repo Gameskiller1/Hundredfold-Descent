@@ -19,6 +19,8 @@ public class DashAbility : PlayerAbility
         player.LockMovement();
 
         Vector2 dir = player.MoveInput.sqrMagnitude > 0.01f ? player.MoveInput.normalized : player.FacingDirection;
+        print(player.MoveInput);
+
         player.Rb.linearVelocity = dir * dashSpeed;
 
         yield return new WaitForSeconds(dashDuration);

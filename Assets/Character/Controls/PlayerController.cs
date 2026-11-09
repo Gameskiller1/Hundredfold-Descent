@@ -68,9 +68,7 @@ public class PlayerController : MonoBehaviour
         if (IsMovementLocked) return; // abilities control velocity while locked
 
         Vector2 target = MoveInput * moveSpeed;
-        Rb.linearVelocity = acceleration <= 0f
-            ? target
-            : Vector2.MoveTowards(Rb.linearVelocity, target, acceleration * Time.fixedDeltaTime);
+        Rb.linearVelocity = acceleration <= 0f ? target : Vector2.MoveTowards(Rb.linearVelocity, target, acceleration * Time.fixedDeltaTime);
     }
 
     private void UpdateVisuals()

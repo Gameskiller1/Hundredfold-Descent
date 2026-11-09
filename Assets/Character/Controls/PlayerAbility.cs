@@ -33,7 +33,6 @@ public abstract class PlayerAbility : MonoBehaviour
         if (inputAction == null) return;
         inputAction.action.performed -= HandleInput;
     }
-
     private void HandleInput(InputAction.CallbackContext ctx) => TryActivate();
 
     /// <summary>Can also be called from code (AI, UI buttons, combos...)</summary>
