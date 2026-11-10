@@ -29,11 +29,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;             // what counts as ground
 
     [Header("Optional")]
-    [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private bool persistBetweenScenes = true;
 
     // ---- Public API for abilities / other systems ----
+    public PlayerAnimator Anim { get; private set; }
     public static PlayerController Instance { get; private set; }   // global access (camera, UI...)
     public Rigidbody2D Rb { get; private set; }
     public float MoveInput { get; private set; }                    // -1..1 horizontal input
@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
 
         // Only auto-find if not assigned in the Inspector
         if (spriteRenderer == null) spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        if (animator == null) animator = GetComponentInChildren<Animator>();
+        if (Anim == null) Anim = GetComponentInChildren<PlayerAnimator>();
     }
 
     private void OnDestroy()
@@ -126,14 +126,6 @@ public class PlayerController : MonoBehaviour
         // Flip sprite based on facing
         if (spriteRenderer != null)
             spriteRenderer.flipX = FacingSign < 0;
-
-        // Animator parameters
-        if (animator != null)
-        {
-            animator.SetFloat("Speed", Mathf.Abs(MoveInput));
-            animator.SetBool("Grounded", IsGrounded);
-            animator.SetFloat("VelocityY", Rb.linearVelocity.y);
-        }
     }
 
     // ---- Lock helpers ----

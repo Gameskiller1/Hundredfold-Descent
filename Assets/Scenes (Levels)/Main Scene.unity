@@ -6899,6 +6899,7 @@ GameObject:
   - component: {fileID: 1436182123}
   - component: {fileID: 1436182129}
   - component: {fileID: 1436182127}
+  - component: {fileID: 1436182131}
   - component: {fileID: 1436182130}
   m_Layer: 0
   m_Name: Player
@@ -7025,7 +7026,6 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  animator: {fileID: 1436182123}
   spriteRenderer: {fileID: 1436182124}
   persistBetweenScenes: 1
 --- !u!50 &1436182129
@@ -7092,6 +7092,21 @@ CapsuleCollider2D:
   m_Offset: {x: -0.024300277, y: -0.05467528}
   m_Size: {x: 0.53019714, y: 0.9473498}
   m_Direction: 0
+--- !u!114 &1436182131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436182122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5040f356f83e7449d1158685f78258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1436182123}
+  runThreshold: 0.6
+  idleThreshold: 0.05
 --- !u!1 &1506767878
 GameObject:
   m_ObjectHideFlags: 0
