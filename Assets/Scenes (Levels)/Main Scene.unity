@@ -6901,6 +6901,8 @@ GameObject:
   - component: {fileID: 1436182127}
   - component: {fileID: 1436182131}
   - component: {fileID: 1436182130}
+  - component: {fileID: 1436182133}
+  - component: {fileID: 1436182132}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -7105,8 +7107,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1436182123}
-  runThreshold: 0.6
   idleThreshold: 0.05
+  useRun: 0
+  runThreshold: 0.6
+  fallVelocityThreshold: 0.5
+  minAirTimeForLand: 0.15
+  moveCancelsLand: 1
+  blinkInterval: {x: 2.5, y: 5}
+--- !u!114 &1436182132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436182122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4889100166dbf7d45aeefde536a57c8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slots:
+  - input: {fileID: 8984895370021936359, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    startingSpell: {fileID: 11400000, guid: 0f6dea5148c8d904f99c951c644d482c, type: 2}
+  - input: {fileID: -903042566157882259, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    startingSpell: {fileID: 0}
+  - input: {fileID: 6673356772253313445, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    startingSpell: {fileID: 0}
+  confirmAction: {fileID: -1082839080321231623, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  cancelAction: {fileID: 3458100959820982277, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  pointAction: {fileID: 0}
+  dimOverlayPrefab: {fileID: 0}
+--- !u!114 &1436182133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436182122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cae504f4a442c4ca3f1764a0b17f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLight: 100
+  startLight: 100
+  regenPerSecond: 5
+  regenDelay: 1
 --- !u!1 &1506767878
 GameObject:
   m_ObjectHideFlags: 0
