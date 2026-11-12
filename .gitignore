@@ -13,6 +13,24 @@ Logs/
 *.user
 *.userprefs
 
+# Per-user Unity settings (layouts, etc.)
+[Uu]ser[Ss]ettings/
+
+# Other Unity junk
+[Mm]emoryCaptures/
+[Rr]ecordings/
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.apk
+*.aab
+*.unitypackage
+crashlytics-build.properties
+
 # Visual Studio / Rider
 .vscode/
 .idea/
