@@ -7,6 +7,8 @@ public class LightningStrike : SpellEffect
 {
     [Header("Damage")]
     [SerializeField] private bool dealDamage = false;
+    [SerializeField, Min(0f)] private float damage = 30f;
+    [SerializeField] private DamageType damageType = DamageType.Lightning;
     [Tooltip("Seconds after the strike starts until the hit (match the impact frame).")]
     [SerializeField] private float hitDelay = 0.1f;
     [SerializeField] private Vector2 hitBoxSize = new Vector2(1f, 3f);
@@ -30,10 +32,11 @@ public class LightningStrike : SpellEffect
     private void DoHit()
     {
         Vector2 center = (Vector2)transform.position + hitBoxOffset;
-        foreach (var h in Physics2D.OverlapBoxAll(center, hitBoxSize, 0f, hitLayers))
+        foreach (var t in DamageUtil.Box(center, hitBoxSize, 0f, hitLayers))
         {
-            // TODO: your health system, e.g. h.GetComponentInParent<Health>()?.TakeDamage(damage);
-            Debug.Log($"[Lightning] Hit {h.name}", h);
+            var info = new DamageInfo(damage, Faction.Player, gameObject, damageType);
+            info.point = t.Collider.bounds.center;
+            t.Damageable.TakeDamage(info);
         }
     }
 
