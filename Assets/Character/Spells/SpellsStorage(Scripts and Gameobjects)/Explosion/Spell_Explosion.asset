@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41714070d9eb86b478153a82eb445c64, type: 3}
   m_Name: Spell_Explosion
   m_EditorClassIdentifier: 
-  displayName: New Spell
+  displayName: Explosion
   icon: {fileID: 0}
-  description: 
+  description: Ultimate destruction...
   lightCost: 10
   cooldown: 1
-  behaviourPrefab: {fileID: 0}
+  behaviourPrefab: {fileID: 5354932604506604383, guid: 1daeda49a36321241ae3f84d36816064, type: 3}

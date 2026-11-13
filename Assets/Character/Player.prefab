@@ -344,7 +344,7 @@ MonoBehaviour:
   - input: {fileID: 8984895370021936359, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
     startingSpell: {fileID: 11400000, guid: 0f6dea5148c8d904f99c951c644d482c, type: 2}
   - input: {fileID: -903042566157882259, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-    startingSpell: {fileID: 0}
+    startingSpell: {fileID: 11400000, guid: 700e7cc3a4b5a0e439e900671d21056d, type: 2}
   - input: {fileID: 6673356772253313445, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
     startingSpell: {fileID: 0}
   confirmAction: {fileID: -1082839080321231623, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
