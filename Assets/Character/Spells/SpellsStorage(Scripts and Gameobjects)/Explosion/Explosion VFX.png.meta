@@ -1,0 +1,7339 @@
+fileFormatVersion: 2
+guid: 59c4208b114dfb94b97a7683a670d475
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4075365146367978522
+    second: ExplosionVFX_0
+  - first:
+      213: -179632950795534331
+    second: ExplosionVFX_1
+  - first:
+      213: -5719964630805939840
+    second: ExplosionVFX_2
+  - first:
+      213: 4481192086402616176
+    second: ExplosionVFX_3
+  - first:
+      213: -3958299670309478888
+    second: ExplosionVFX_4
+  - first:
+      213: 2081886323493922081
+    second: ExplosionVFX_5
+  - first:
+      213: 3406400938393790937
+    second: ExplosionVFX_6
+  - first:
+      213: -6943527150690539564
+    second: ExplosionVFX_7
+  - first:
+      213: -8436168153414826601
+    second: ExplosionVFX_8
+  - first:
+      213: 4319582546178017469
+    second: ExplosionVFX_9
+  - first:
+      213: 6211967467307824329
+    second: ExplosionVFX_10
+  - first:
+      213: 614054016964331929
+    second: ExplosionVFX_11
+  - first:
+      213: 6363508576559542158
+    second: ExplosionVFX_12
+  - first:
+      213: -6431722135736099244
+    second: ExplosionVFX_13
+  - first:
+      213: -4690377174601535450
+    second: ExplosionVFX_14
+  - first:
+      213: 3811721871371990976
+    second: ExplosionVFX_15
+  - first:
+      213: -3952262321272948676
+    second: ExplosionVFX_16
+  - first:
+      213: 742802826496846561
+    second: ExplosionVFX_17
+  - first:
+      213: 5299789591954198060
+    second: ExplosionVFX_18
+  - first:
+      213: -1267884887237714963
+    second: ExplosionVFX_19
+  - first:
+      213: 150550749075025783
+    second: ExplosionVFX_20
+  - first:
+      213: -109058725720966022
+    second: ExplosionVFX_21
+  - first:
+      213: -4127181826051414913
+    second: ExplosionVFX_22
+  - first:
+      213: 586732985360448331
+    second: ExplosionVFX_23
+  - first:
+      213: 1665423094341963079
+    second: ExplosionVFX_24
+  - first:
+      213: -8109627323319738783
+    second: ExplosionVFX_25
+  - first:
+      213: -8076105108663927417
+    second: ExplosionVFX_26
+  - first:
+      213: 3513836679347363643
+    second: ExplosionVFX_27
+  - first:
+      213: 1437602339326440389
+    second: ExplosionVFX_28
+  - first:
+      213: -8594541124443163114
+    second: ExplosionVFX_29
+  - first:
+      213: -2443274162101423521
+    second: ExplosionVFX_30
+  - first:
+      213: -5223202228128612094
+    second: ExplosionVFX_31
+  - first:
+      213: 3839429178335440059
+    second: ExplosionVFX_32
+  - first:
+      213: 5606497737838463860
+    second: ExplosionVFX_33
+  - first:
+      213: -6252869723237403439
+    second: ExplosionVFX_34
+  - first:
+      213: 2399585802178022612
+    second: ExplosionVFX_35
+  - first:
+      213: 2079368019918604284
+    second: ExplosionVFX_36
+  - first:
+      213: 4483989292040434790
+    second: ExplosionVFX_37
+  - first:
+      213: -2367007787968079393
+    second: ExplosionVFX_38
+  - first:
+      213: -2316641267790996167
+    second: ExplosionVFX_39
+  - first:
+      213: -1252571778180043407
+    second: ExplosionVFX_40
+  - first:
+      213: 6056624869692155647
+    second: ExplosionVFX_41
+  - first:
+      213: -4066400087859366179
+    second: ExplosionVFX_42
+  - first:
+      213: 3365778072471414001
+    second: ExplosionVFX_43
+  - first:
+      213: 984952133870084266
+    second: ExplosionVFX_44
+  - first:
+      213: 4593734694791446032
+    second: ExplosionVFX_45
+  - first:
+      213: 266912963326746931
+    second: ExplosionVFX_46
+  - first:
+      213: -7069352850073171669
+    second: ExplosionVFX_47
+  - first:
+      213: -1656950097623256538
+    second: ExplosionVFX_48
+  - first:
+      213: -3397085534579738034
+    second: ExplosionVFX_49
+  - first:
+      213: 3506370331742519512
+    second: ExplosionVFX_50
+  - first:
+      213: -1244248148078079384
+    second: ExplosionVFX_51
+  - first:
+      213: 3828682491358418406
+    second: ExplosionVFX_52
+  - first:
+      213: -8472495371506163488
+    second: ExplosionVFX_53
+  - first:
+      213: 7210137151721362159
+    second: ExplosionVFX_54
+  - first:
+      213: -4742024896077468999
+    second: ExplosionVFX_55
+  - first:
+      213: 5753010006404708180
+    second: ExplosionVFX_56
+  - first:
+      213: 7766967695090575728
+    second: ExplosionVFX_57
+  - first:
+      213: 3987085925739478082
+    second: ExplosionVFX_58
+  - first:
+      213: 8847027029677009896
+    second: ExplosionVFX_59
+  - first:
+      213: 5365159044313741620
+    second: ExplosionVFX_60
+  - first:
+      213: -364686605236828149
+    second: ExplosionVFX_61
+  - first:
+      213: 3349112732110787914
+    second: ExplosionVFX_62
+  - first:
+      213: -7981390766813671816
+    second: ExplosionVFX_63
+  - first:
+      213: 7386597131293166008
+    second: ExplosionVFX_64
+  - first:
+      213: 8286134578296700404
+    second: ExplosionVFX_65
+  - first:
+      213: -7813755580325417314
+    second: ExplosionVFX_66
+  - first:
+      213: 4173930819378271568
+    second: ExplosionVFX_67
+  - first:
+      213: -6827975186451370946
+    second: ExplosionVFX_68
+  - first:
+      213: 1327009700539128308
+    second: ExplosionVFX_69
+  - first:
+      213: 7325282527226393515
+    second: ExplosionVFX_70
+  - first:
+      213: 2704894017924122894
+    second: ExplosionVFX_71
+  - first:
+      213: -4420931674871962708
+    second: ExplosionVFX_72
+  - first:
+      213: 6202566665146757961
+    second: ExplosionVFX_73
+  - first:
+      213: 3725594738698436812
+    second: ExplosionVFX_74
+  - first:
+      213: 583618579537525017
+    second: ExplosionVFX_75
+  - first:
+      213: -5961774156714441657
+    second: ExplosionVFX_76
+  - first:
+      213: -5639025610894301256
+    second: ExplosionVFX_77
+  - first:
+      213: -1888321102546374973
+    second: ExplosionVFX_78
+  - first:
+      213: 4443513602297395461
+    second: ExplosionVFX_79
+  - first:
+      213: 4310985988873738926
+    second: ExplosionVFX_80
+  - first:
+      213: 7376165040686472910
+    second: ExplosionVFX_81
+  - first:
+      213: -6057967787126432571
+    second: ExplosionVFX_82
+  - first:
+      213: -4519442137655091684
+    second: ExplosionVFX_83
+  - first:
+      213: 2730535714005913667
+    second: ExplosionVFX_84
+  - first:
+      213: -2889747588783317080
+    second: ExplosionVFX_85
+  - first:
+      213: 5950516518072740365
+    second: ExplosionVFX_86
+  - first:
+      213: -3769973765611062969
+    second: ExplosionVFX_87
+  - first:
+      213: -4744457055119598071
+    second: ExplosionVFX_88
+  - first:
+      213: 4236786228094584677
+    second: ExplosionVFX_89
+  - first:
+      213: 6204142008850786875
+    second: ExplosionVFX_90
+  - first:
+      213: -4613631597673548688
+    second: ExplosionVFX_91
+  - first:
+      213: -4061696233485746892
+    second: ExplosionVFX_92
+  - first:
+      213: -193327807440371098
+    second: ExplosionVFX_93
+  - first:
+      213: -4480560758726897663
+    second: ExplosionVFX_94
+  - first:
+      213: -7725451851416402683
+    second: ExplosionVFX_95
+  - first:
+      213: 1157654556150438891
+    second: ExplosionVFX_96
+  - first:
+      213: -5736139544476582760
+    second: ExplosionVFX_97
+  - first:
+      213: -4440857516961991680
+    second: ExplosionVFX_98
+  - first:
+      213: 1066444362208564630
+    second: ExplosionVFX_99
+  - first:
+      213: 5921175128387783882
+    second: ExplosionVFX_100
+  - first:
+      213: 40729141437903093
+    second: ExplosionVFX_101
+  - first:
+      213: -1722492556849189756
+    second: ExplosionVFX_102
+  - first:
+      213: 847757304403350195
+    second: ExplosionVFX_103
+  - first:
+      213: 4936569073886828943
+    second: ExplosionVFX_104
+  - first:
+      213: -6673168204069229781
+    second: ExplosionVFX_105
+  - first:
+      213: -4986470405635439748
+    second: ExplosionVFX_106
+  - first:
+      213: 7664173322139914742
+    second: ExplosionVFX_107
+  - first:
+      213: -694897431799322439
+    second: ExplosionVFX_108
+  - first:
+      213: -2020598461862411500
+    second: ExplosionVFX_109
+  - first:
+      213: 8348921597685636286
+    second: ExplosionVFX_110
+  - first:
+      213: 5809515853223868661
+    second: ExplosionVFX_111
+  - first:
+      213: -6675747994522909186
+    second: ExplosionVFX_112
+  - first:
+      213: 7389200205396098138
+    second: ExplosionVFX_113
+  - first:
+      213: 7554228756254592372
+    second: ExplosionVFX_114
+  - first:
+      213: 7350088207140455211
+    second: ExplosionVFX_115
+  - first:
+      213: 9155850792867382812
+    second: ExplosionVFX_116
+  - first:
+      213: 4247574987706531045
+    second: ExplosionVFX_117
+  - first:
+      213: 386300388469654846
+    second: ExplosionVFX_118
+  - first:
+      213: 4796939651144142915
+    second: ExplosionVFX_119
+  - first:
+      213: -8581458396959416391
+    second: ExplosionVFX_120
+  - first:
+      213: -973978681005676755
+    second: ExplosionVFX_121
+  - first:
+      213: -4978248746960109466
+    second: ExplosionVFX_122
+  - first:
+      213: -4643804348041276182
+    second: ExplosionVFX_123
+  - first:
+      213: -1604762044066162675
+    second: ExplosionVFX_124
+  - first:
+      213: -1514323827015959211
+    second: ExplosionVFX_125
+  - first:
+      213: 132204573731768527
+    second: ExplosionVFX_126
+  - first:
+      213: 1696532544305247125
+    second: ExplosionVFX_127
+  - first:
+      213: -1710704080180185619
+    second: ExplosionVFX_128
+  - first:
+      213: 2269309597164630535
+    second: ExplosionVFX_129
+  - first:
+      213: -8040011587099708971
+    second: ExplosionVFX_130
+  - first:
+      213: 3087082596590101981
+    second: ExplosionVFX_131
+  - first:
+      213: 8739558609157336774
+    second: ExplosionVFX_132
+  - first:
+      213: 2157803053555381434
+    second: ExplosionVFX_133
+  - first:
+      213: -54807060131501849
+    second: ExplosionVFX_134
+  - first:
+      213: -6103707279254750554
+    second: ExplosionVFX_135
+  - first:
+      213: 3306063955710302547
+    second: ExplosionVFX_136
+  - first:
+      213: 8008470620204563820
+    second: ExplosionVFX_137
+  - first:
+      213: 4766977002315027859
+    second: ExplosionVFX_138
+  - first:
+      213: 253516006249181949
+    second: ExplosionVFX_139
+  - first:
+      213: -5424772899824998952
+    second: ExplosionVFX_140
+  - first:
+      213: 3401628856263633385
+    second: ExplosionVFX_141
+  - first:
+      213: -2065872660941994730
+    second: ExplosionVFX_142
+  - first:
+      213: 2641505055017217101
+    second: ExplosionVFX_143
+  - first:
+      213: 4420359778535252624
+    second: ExplosionVFX_144
+  - first:
+      213: 6928915060396771500
+    second: ExplosionVFX_145
+  - first:
+      213: 1922280730733288309
+    second: ExplosionVFX_146
+  - first:
+      213: 3397199926589305194
+    second: ExplosionVFX_147
+  - first:
+      213: 4840071217483634659
+    second: ExplosionVFX_148
+  - first:
+      213: -7376185737021186108
+    second: ExplosionVFX_149
+  - first:
+      213: 4569628801445670361
+    second: ExplosionVFX_150
+  - first:
+      213: 8105820287299230447
+    second: ExplosionVFX_151
+  - first:
+      213: 2383744897718104242
+    second: ExplosionVFX_152
+  - first:
+      213: -381674000691665062
+    second: ExplosionVFX_153
+  - first:
+      213: 6971283691247031085
+    second: ExplosionVFX_154
+  - first:
+      213: -3873914557822989142
+    second: ExplosionVFX_155
+  - first:
+      213: 5936167364488295008
+    second: ExplosionVFX_156
+  - first:
+      213: -918919442864064169
+    second: ExplosionVFX_157
+  - first:
+      213: 6399568051439237850
+    second: ExplosionVFX_158
+  - first:
+      213: 299884918815896765
+    second: ExplosionVFX_159
+  - first:
+      213: 4807424952212762928
+    second: ExplosionVFX_160
+  - first:
+      213: -7608153776170050451
+    second: ExplosionVFX_161
+  - first:
+      213: 8762841438960897587
+    second: ExplosionVFX_162
+  - first:
+      213: -6806428593685389398
+    second: ExplosionVFX_163
+  - first:
+      213: -6261360457721766183
+    second: ExplosionVFX_164
+  - first:
+      213: 4629834426079855907
+    second: ExplosionVFX_165
+  - first:
+      213: -668506323251929324
+    second: ExplosionVFX_166
+  - first:
+      213: -595730361839924971
+    second: ExplosionVFX_167
+  - first:
+      213: -1664535940724690747
+    second: ExplosionVFX_168
+  - first:
+      213: -316244544018207219
+    second: ExplosionVFX_169
+  - first:
+      213: -8651731817985265882
+    second: ExplosionVFX_170
+  - first:
+      213: -5202844230781564776
+    second: ExplosionVFX_171
+  - first:
+      213: -822597072494355352
+    second: ExplosionVFX_172
+  - first:
+      213: -2671322573142538875
+    second: ExplosionVFX_173
+  - first:
+      213: -1219774633567222520
+    second: ExplosionVFX_174
+  - first:
+      213: -7558554566397707010
+    second: ExplosionVFX_175
+  - first:
+      213: 1699550269487383000
+    second: ExplosionVFX_176
+  - first:
+      213: 6013604675539739339
+    second: ExplosionVFX_177
+  - first:
+      213: 4674108113853995879
+    second: ExplosionVFX_178
+  - first:
+      213: 124566945737536101
+    second: ExplosionVFX_179
+  - first:
+      213: -2834891855757380921
+    second: ExplosionVFX_180
+  - first:
+      213: 4286897724407888379
+    second: ExplosionVFX_181
+  - first:
+      213: 7145360508960947167
+    second: ExplosionVFX_182
+  - first:
+      213: -3647143957273118001
+    second: ExplosionVFX_183
+  - first:
+      213: -1126190578187177199
+    second: ExplosionVFX_184
+  - first:
+      213: -4813657493567512176
+    second: ExplosionVFX_185
+  - first:
+      213: -1186162834877003421
+    second: ExplosionVFX_186
+  - first:
+      213: -749969292521359990
+    second: ExplosionVFX_187
+  - first:
+      213: -8471972706541286712
+    second: ExplosionVFX_188
+  - first:
+      213: 6928859109215519514
+    second: ExplosionVFX_189
+  - first:
+      213: 2050858298478473704
+    second: ExplosionVFX_190
+  - first:
+      213: 7016624401971375097
+    second: ExplosionVFX_191
+  - first:
+      213: -2101953483817449099
+    second: ExplosionVFX_192
+  - first:
+      213: 543768996960793328
+    second: ExplosionVFX_193
+  - first:
+      213: -4222810316239316982
+    second: ExplosionVFX_194
+  - first:
+      213: -9190422281243218026
+    second: ExplosionVFX_195
+  - first:
+      213: 6257895795782805331
+    second: ExplosionVFX_196
+  - first:
+      213: -5762507285830013063
+    second: ExplosionVFX_197
+  - first:
+      213: 5059111072017023236
+    second: ExplosionVFX_198
+  - first:
+      213: -5211086279037320717
+    second: ExplosionVFX_199
+  - first:
+      213: 8355068453984336592
+    second: ExplosionVFX_200
+  - first:
+      213: 6016594194130409364
+    second: ExplosionVFX_201
+  - first:
+      213: -9057931193948427254
+    second: ExplosionVFX_202
+  - first:
+      213: 4517041003729356095
+    second: ExplosionVFX_203
+  - first:
+      213: 1635529921374751368
+    second: ExplosionVFX_204
+  - first:
+      213: -6345261727087837835
+    second: ExplosionVFX_205
+  - first:
+      213: 8189943401134569265
+    second: ExplosionVFX_206
+  - first:
+      213: -6332212173094978788
+    second: ExplosionVFX_207
+  - first:
+      213: 146765209364990384
+    second: ExplosionVFX_208
+  - first:
+      213: 5734399839127488302
+    second: ExplosionVFX_209
+  - first:
+      213: 4231874699220836170
+    second: ExplosionVFX_210
+  - first:
+      213: -8963540759462777479
+    second: ExplosionVFX_211
+  - first:
+      213: -1667325496776008015
+    second: ExplosionVFX_212
+  - first:
+      213: 7642775441474132047
+    second: ExplosionVFX_213
+  - first:
+      213: -9015648641430299038
+    second: ExplosionVFX_214
+  - first:
+      213: 5331161909172107964
+    second: ExplosionVFX_215
+  - first:
+      213: -8209123906565385755
+    second: ExplosionVFX_216
+  - first:
+      213: -8586700136743199624
+    second: ExplosionVFX_217
+  - first:
+      213: -1236858518099134753
+    second: ExplosionVFX_218
+  - first:
+      213: 1164568385902114086
+    second: ExplosionVFX_219
+  - first:
+      213: -8071925564995546187
+    second: ExplosionVFX_220
+  - first:
+      213: 6378439979860129896
+    second: ExplosionVFX_221
+  - first:
+      213: -1095901638876682762
+    second: ExplosionVFX_222
+  - first:
+      213: -5281520058479377019
+    second: ExplosionVFX_223
+  - first:
+      213: 7994676851291377766
+    second: ExplosionVFX_224
+  - first:
+      213: -2768470179901580360
+    second: ExplosionVFX_225
+  - first:
+      213: 3240486283915117226
+    second: ExplosionVFX_226
+  - first:
+      213: -1893081095680999288
+    second: ExplosionVFX_227
+  - first:
+      213: -202346451221171700
+    second: ExplosionVFX_228
+  - first:
+      213: -1097454750720149222
+    second: ExplosionVFX_229
+  - first:
+      213: -8732161872895506468
+    second: ExplosionVFX_230
+  - first:
+      213: -6661827036430455327
+    second: ExplosionVFX_231
+  - first:
+      213: -5934934768713183844
+    second: ExplosionVFX_232
+  - first:
+      213: -5159777830865463324
+    second: ExplosionVFX_233
+  - first:
+      213: 5152661926432614947
+    second: ExplosionVFX_234
+  - first:
+      213: 8998255522331512395
+    second: ExplosionVFX_235
+  - first:
+      213: 447476186036201616
+    second: ExplosionVFX_236
+  - first:
+      213: 5982558552827588935
+    second: ExplosionVFX_237
+  - first:
+      213: -4014229106727281297
+    second: ExplosionVFX_238
+  - first:
+      213: 3853219963686165683
+    second: ExplosionVFX_239
+  - first:
+      213: -3643948751456591383
+    second: ExplosionVFX_240
+  - first:
+      213: 8506025465854903410
+    second: ExplosionVFX_241
+  - first:
+      213: 4126144181658379670
+    second: ExplosionVFX_242
+  - first:
+      213: 7487717514318681806
+    second: ExplosionVFX_243
+  - first:
+      213: -1434185358400092127
+    second: ExplosionVFX_244
+  - first:
+      213: 2439054166143151837
+    second: ExplosionVFX_245
+  - first:
+      213: -8351519148763975270
+    second: ExplosionVFX_246
+  - first:
+      213: 6621855291400062488
+    second: ExplosionVFX_247
+  - first:
+      213: 6926641966962186594
+    second: ExplosionVFX_248
+  - first:
+      213: 7509869379050262151
+    second: ExplosionVFX_249
+  - first:
+      213: 4153757733767097594
+    second: ExplosionVFX_250
+  - first:
+      213: 2776920517985389594
+    second: ExplosionVFX_251
+  - first:
+      213: 8770503890146592849
+    second: ExplosionVFX_252
+  - first:
+      213: 5845870033374698374
+    second: ExplosionVFX_253
+  - first:
+      213: -7731066265279511940
+    second: ExplosionVFX_254
+  - first:
+      213: -8628506999073694977
+    second: ExplosionVFX_255
+  - first:
+      213: -3085323373175818444
+    second: ExplosionVFX_256
+  - first:
+      213: 3469780487204363079
+    second: ExplosionVFX_257
+  - first:
+      213: -6253558160303759614
+    second: ExplosionVFX_258
+  - first:
+      213: 1722973067693377522
+    second: ExplosionVFX_259
+  - first:
+      213: -3131076012923718194
+    second: ExplosionVFX_260
+  - first:
+      213: 2970409736732352856
+    second: ExplosionVFX_261
+  - first:
+      213: 6730831782960626800
+    second: ExplosionVFX_262
+  - first:
+      213: -1499765162861538741
+    second: ExplosionVFX_263
+  - first:
+      213: 2002811081443816533
+    second: ExplosionVFX_264
+  - first:
+      213: -8758204744768866549
+    second: ExplosionVFX_265
+  - first:
+      213: 5980304160372895708
+    second: ExplosionVFX_266
+  - first:
+      213: -5612032343864170819
+    second: ExplosionVFX_267
+  - first:
+      213: 1313354664943519149
+    second: ExplosionVFX_268
+  - first:
+      213: 6737487747395979984
+    second: ExplosionVFX_269
+  - first:
+      213: -6687340662152222748
+    second: ExplosionVFX_270
+  - first:
+      213: 2759192371655906074
+    second: ExplosionVFX_271
+  - first:
+      213: 4351973081677122073
+    second: ExplosionVFX_272
+  - first:
+      213: -2978882386899954435
+    second: ExplosionVFX_273
+  - first:
+      213: -1979679120971926627
+    second: ExplosionVFX_274
+  - first:
+      213: -8004650598369848019
+    second: ExplosionVFX_275
+  - first:
+      213: -4115422239808355256
+    second: ExplosionVFX_276
+  - first:
+      213: 1000434949443859291
+    second: ExplosionVFX_277
+  - first:
+      213: -2980720506449010186
+    second: ExplosionVFX_278
+  - first:
+      213: 2940115180487637659
+    second: ExplosionVFX_279
+  - first:
+      213: -6012163775396992288
+    second: ExplosionVFX_280
+  - first:
+      213: -3889048538588614629
+    second: ExplosionVFX_281
+  - first:
+      213: 8517208493960930327
+    second: ExplosionVFX_282
+  - first:
+      213: -4641505029063921503
+    second: ExplosionVFX_283
+  - first:
+      213: 8168330733781856399
+    second: ExplosionVFX_284
+  - first:
+      213: 4410423978867263009
+    second: ExplosionVFX_285
+  - first:
+      213: -5837077971990467426
+    second: ExplosionVFX_286
+  - first:
+      213: -5986143655033837975
+    second: ExplosionVFX_287
+  - first:
+      213: -2936051989952236860
+    second: ExplosionVFX_288
+  - first:
+      213: -7636058179936620173
+    second: ExplosionVFX_289
+  - first:
+      213: -7620012565783562134
+    second: ExplosionVFX_290
+  - first:
+      213: -204209863122156632
+    second: ExplosionVFX_291
+  - first:
+      213: 8843430006404142484
+    second: ExplosionVFX_292
+  - first:
+      213: -118149685608524804
+    second: ExplosionVFX_293
+  - first:
+      213: 8671473853480243123
+    second: ExplosionVFX_294
+  - first:
+      213: -1518062342048919575
+    second: ExplosionVFX_295
+  - first:
+      213: -2477092972381839278
+    second: ExplosionVFX_296
+  - first:
+      213: 7497097046970795097
+    second: ExplosionVFX_297
+  - first:
+      213: 3104302080483399088
+    second: ExplosionVFX_298
+  - first:
+      213: -4107535729127792610
+    second: ExplosionVFX_299
+  - first:
+      213: -486184713249817936
+    second: ExplosionVFX_300
+  - first:
+      213: -5847525470409789578
+    second: ExplosionVFX_301
+  - first:
+      213: -3616103034189818517
+    second: ExplosionVFX_302
+  - first:
+      213: -3790432693248396094
+    second: ExplosionVFX_303
+  - first:
+      213: -489837239327834672
+    second: ExplosionVFX_304
+  - first:
+      213: -7345597666649093709
+    second: ExplosionVFX_305
+  - first:
+      213: 8850847761793329629
+    second: ExplosionVFX_306
+  - first:
+      213: -4767888678896292149
+    second: ExplosionVFX_307
+  - first:
+      213: 1081557197558436184
+    second: ExplosionVFX_308
+  - first:
+      213: -1341386489083372479
+    second: ExplosionVFX_309
+  - first:
+      213: -4566245414964791018
+    second: ExplosionVFX_310
+  - first:
+      213: -7199559582950302441
+    second: ExplosionVFX_311
+  - first:
+      213: -6053153481370005678
+    second: ExplosionVFX_312
+  - first:
+      213: 20401387845115286
+    second: ExplosionVFX_313
+  - first:
+      213: -3488076538714949149
+    second: ExplosionVFX_314
+  - first:
+      213: -962367405514592321
+    second: ExplosionVFX_315
+  - first:
+      213: 3832820048686654227
+    second: ExplosionVFX_316
+  - first:
+      213: -3210304451634913198
+    second: ExplosionVFX_317
+  - first:
+      213: -8387730656893984343
+    second: ExplosionVFX_318
+  - first:
+      213: 5741553034422048495
+    second: ExplosionVFX_319
+  - first:
+      213: 273063572622172629
+    second: ExplosionVFX_320
+  - first:
+      213: -695408383057657787
+    second: ExplosionVFX_321
+  - first:
+      213: -7891845012312509963
+    second: ExplosionVFX_322
+  - first:
+      213: 6366281302446404531
+    second: ExplosionVFX_323
+  - first:
+      213: -1113792953774531844
+    second: ExplosionVFX_324
+  - first:
+      213: -9199953131747354249
+    second: ExplosionVFX_325
+  - first:
+      213: 8702496446041304688
+    second: ExplosionVFX_326
+  - first:
+      213: -7910127146879262693
+    second: ExplosionVFX_327
+  - first:
+      213: -3069256630944469716
+    second: ExplosionVFX_328
+  - first:
+      213: 7274599626943531822
+    second: ExplosionVFX_329
+  - first:
+      213: -7879019069384004258
+    second: ExplosionVFX_330
+  - first:
+      213: -9118026096858227018
+    second: ExplosionVFX_331
+  - first:
+      213: -8453305320191493623
+    second: ExplosionVFX_332
+  - first:
+      213: 8519861680674845353
+    second: ExplosionVFX_333
+  - first:
+      213: 5300306229716622484
+    second: ExplosionVFX_334
+  - first:
+      213: -399584991106048503
+    second: ExplosionVFX_335
+  - first:
+      213: 7458806695323405002
+    second: ExplosionVFX_336
+  - first:
+      213: 2636763372370402133
+    second: ExplosionVFX_337
+  - first:
+      213: 445044266894873663
+    second: ExplosionVFX_338
+  - first:
+      213: -4562881496284490228
+    second: ExplosionVFX_339
+  - first:
+      213: 1150666152140403101
+    second: ExplosionVFX_340
+  - first:
+      213: 2800096096372016908
+    second: ExplosionVFX_341
+  - first:
+      213: 7254128365079609103
+    second: ExplosionVFX_342
+  - first:
+      213: 9172811871639923792
+    second: ExplosionVFX_343
+  - first:
+      213: 3261897877497493080
+    second: ExplosionVFX_344
+  - first:
+      213: 811138859664955850
+    second: ExplosionVFX_345
+  - first:
+      213: -1548732441507949499
+    second: ExplosionVFX_346
+  - first:
+      213: 8026028991674481819
+    second: ExplosionVFX_347
+  - first:
+      213: -7469790605203613631
+    second: ExplosionVFX_348
+  - first:
+      213: -8400857516619867304
+    second: ExplosionVFX_349
+  - first:
+      213: 4645530488270159882
+    second: ExplosionVFX_350
+  - first:
+      213: 1821091785212998427
+    second: ExplosionVFX_351
+  - first:
+      213: 8914032174619767726
+    second: ExplosionVFX_352
+  - first:
+      213: 4148473377735495382
+    second: ExplosionVFX_353
+  - first:
+      213: 2355711152024187901
+    second: ExplosionVFX_354
+  - first:
+      213: 550804581592568381
+    second: ExplosionVFX_355
+  - first:
+      213: 3548317753060633607
+    second: ExplosionVFX_356
+  - first:
+      213: -8317503597121395354
+    second: ExplosionVFX_357
+  - first:
+      213: 3620922349328431467
+    second: ExplosionVFX_358
+  - first:
+      213: 8186785641731422870
+    second: ExplosionVFX_359
+  - first:
+      213: 7910815464507051036
+    second: ExplosionVFX_360
+  - first:
+      213: -1943491769582672658
+    second: ExplosionVFX_361
+  - first:
+      213: -6578226987397365097
+    second: ExplosionVFX_362
+  - first:
+      213: 6456744811886530907
+    second: ExplosionVFX_363
+  - first:
+      213: -8956834976550480903
+    second: ExplosionVFX_364
+  - first:
+      213: -6469044753241348099
+    second: ExplosionVFX_365
+  - first:
+      213: -1833189092705630602
+    second: ExplosionVFX_366
+  - first:
+      213: -6483878498507954792
+    second: ExplosionVFX_367
+  - first:
+      213: -2851696388863404054
+    second: ExplosionVFX_368
+  - first:
+      213: 4398764020853361985
+    second: ExplosionVFX_369
+  - first:
+      213: 2470806708779795628
+    second: ExplosionVFX_370
+  - first:
+      213: -720307360403835056
+    second: ExplosionVFX_371
+  - first:
+      213: -1560738761729576027
+    second: ExplosionVFX_372
+  - first:
+      213: 4522666781954758977
+    second: ExplosionVFX_373
+  - first:
+      213: 8770806851689654398
+    second: ExplosionVFX_374
+  - first:
+      213: -4485322493080914920
+    second: ExplosionVFX_375
+  - first:
+      213: 1967375123650127015
+    second: ExplosionVFX_376
+  - first:
+      213: 2110108729594260224
+    second: ExplosionVFX_377
+  - first:
+      213: -4224638096399372550
+    second: ExplosionVFX_378
+  - first:
+      213: 158009698609733070
+    second: ExplosionVFX_379
+  - first:
+      213: 1011208007884917995
+    second: ExplosionVFX_380
+  - first:
+      213: 5429401676481274339
+    second: ExplosionVFX_381
+  - first:
+      213: 7325859978291284345
+    second: ExplosionVFX_382
+  - first:
+      213: -1572233221700870095
+    second: ExplosionVFX_383
+  - first:
+      213: 1031784803936495636
+    second: ExplosionVFX_384
+  - first:
+      213: 3223732201744666267
+    second: ExplosionVFX_385
+  - first:
+      213: -8214075803177362161
+    second: ExplosionVFX_386
+  - first:
+      213: 3656929881652352587
+    second: ExplosionVFX_387
+  - first:
+      213: -72598711697296535
+    second: ExplosionVFX_388
+  - first:
+      213: -7082349223097815022
+    second: ExplosionVFX_389
+  - first:
+      213: 122028581945560381
+    second: ExplosionVFX_390
+  - first:
+      213: 382404863650342865
+    second: ExplosionVFX_391
+  - first:
+      213: -9071784703338198415
+    second: ExplosionVFX_392
+  - first:
+      213: 8732476292080271573
+    second: ExplosionVFX_393
+  - first:
+      213: 2791019968299566498
+    second: ExplosionVFX_394
+  - first:
+      213: -4336872207291816472
+    second: ExplosionVFX_395
+  - first:
+      213: 2506490623999294878
+    second: ExplosionVFX_396
+  - first:
+      213: 1924206605593304726
+    second: ExplosionVFX_397
+  - first:
+      213: 2178986228345944738
+    second: ExplosionVFX_398
+  - first:
+      213: -5402452566390672018
+    second: ExplosionVFX_399
+  - first:
+      213: -6241421117647621429
+    second: ExplosionVFX_400
+  - first:
+      213: -8203348756967805397
+    second: ExplosionVFX_401
+  - first:
+      213: 6032055674516746235
+    second: ExplosionVFX_402
+  - first:
+      213: -929688907729321547
+    second: ExplosionVFX_403
+  - first:
+      213: -4404422513534082698
+    second: ExplosionVFX_404
+  - first:
+      213: 4811505949193013701
+    second: ExplosionVFX_405
+  - first:
+      213: -542630129197278921
+    second: ExplosionVFX_406
+  - first:
+      213: 8967907852321133634
+    second: ExplosionVFX_407
+  - first:
+      213: 4417476036057206193
+    second: ExplosionVFX_408
+  - first:
+      213: 987724984334172883
+    second: ExplosionVFX_409
+  - first:
+      213: -8209981098119408324
+    second: ExplosionVFX_410
+  - first:
+      213: 5041177475267707310
+    second: ExplosionVFX_411
+  - first:
+      213: -1062110200424100719
+    second: ExplosionVFX_412
+  - first:
+      213: -2043550802967133125
+    second: ExplosionVFX_413
+  - first:
+      213: -1472511703000156665
+    second: ExplosionVFX_414
+  - first:
+      213: -1715050509777125982
+    second: ExplosionVFX_415
+  - first:
+      213: -1485618416665137870
+    second: ExplosionVFX_416
+  - first:
+      213: -3184907535349610730
+    second: ExplosionVFX_417
+  - first:
+      213: -204294587931645284
+    second: ExplosionVFX_418
+  - first:
+      213: -6464380417350166634
+    second: ExplosionVFX_419
+  - first:
+      213: 5474771634522980098
+    second: ExplosionVFX_420
+  - first:
+      213: 5092551797337129675
+    second: ExplosionVFX_421
+  - first:
+      213: 5432519316010905774
+    second: ExplosionVFX_422
+  - first:
+      213: -721902077306956396
+    second: ExplosionVFX_423
+  - first:
+      213: -2145755451256916429
+    second: ExplosionVFX_424
+  - first:
+      213: 2643568508410322330
+    second: ExplosionVFX_425
+  - first:
+      213: 6992589777637692476
+    second: ExplosionVFX_426
+  - first:
+      213: 2403577909371649777
+    second: ExplosionVFX_427
+  - first:
+      213: 99340646399207955
+    second: ExplosionVFX_428
+  - first:
+      213: -4764168602492702636
+    second: ExplosionVFX_429
+  - first:
+      213: -6498362049587035915
+    second: ExplosionVFX_430
+  - first:
+      213: -2898879914866625036
+    second: ExplosionVFX_431
+  - first:
+      213: -4917553765538059497
+    second: ExplosionVFX_432
+  - first:
+      213: -905190463002505633
+    second: ExplosionVFX_433
+  - first:
+      213: -5770368988460311563
+    second: ExplosionVFX_434
+  - first:
+      213: -8712435459658559410
+    second: ExplosionVFX_435
+  - first:
+      213: 1181494256201977155
+    second: ExplosionVFX_436
+  - first:
+      213: -3847228383407765525
+    second: ExplosionVFX_437
+  - first:
+      213: 578557518855220666
+    second: ExplosionVFX_438
+  - first:
+      213: 5073317963438620438
+    second: ExplosionVFX_439
+  - first:
+      213: 3763243272390761887
+    second: ExplosionVFX_440
+  - first:
+      213: 8015174640563782619
+    second: ExplosionVFX_441
+  - first:
+      213: 9046512815390279136
+    second: ExplosionVFX_442
+  - first:
+      213: -3415561071965826400
+    second: ExplosionVFX_443
+  - first:
+      213: 6239185169961083313
+    second: ExplosionVFX_444
+  - first:
+      213: -250308428210611257
+    second: ExplosionVFX_445
+  - first:
+      213: -2789847496763485666
+    second: ExplosionVFX_446
+  - first:
+      213: -1502419788870002468
+    second: ExplosionVFX_447
+  - first:
+      213: 2915060814481667340
+    second: ExplosionVFX_448
+  - first:
+      213: 3884124827944378690
+    second: ExplosionVFX_449
+  - first:
+      213: 1090089796081966719
+    second: ExplosionVFX_450
+  - first:
+      213: -5657600819028428998
+    second: ExplosionVFX_451
+  - first:
+      213: -5772848279865608224
+    second: ExplosionVFX_452
+  - first:
+      213: 8542914956194652191
+    second: ExplosionVFX_453
+  - first:
+      213: 6631957691614042904
+    second: ExplosionVFX_454
+  - first:
+      213: -6650342306313880228
+    second: ExplosionVFX_455
+  - first:
+      213: 1686533537480564963
+    second: ExplosionVFX_456
+  - first:
+      213: -4429850218224037561
+    second: ExplosionVFX_457
+  - first:
+      213: -4973872620021251902
+    second: ExplosionVFX_458
+  - first:
+      213: 7109609830384589404
+    second: ExplosionVFX_459
+  - first:
+      213: 1169668024264138529
+    second: ExplosionVFX_460
+  - first:
+      213: -397617742780588040
+    second: ExplosionVFX_461
+  - first:
+      213: -1105337510931468404
+    second: ExplosionVFX_462
+  - first:
+      213: 9136824396224420781
+    second: ExplosionVFX_463
+  - first:
+      213: 3440585520555398355
+    second: ExplosionVFX_464
+  - first:
+      213: 1321265784026514254
+    second: ExplosionVFX_465
+  - first:
+      213: -2453536082216041515
+    second: ExplosionVFX_466
+  - first:
+      213: -1701974883768181353
+    second: ExplosionVFX_467
+  - first:
+      213: -7694274740732494854
+    second: ExplosionVFX_468
+  - first:
+      213: -8318366874411065087
+    second: ExplosionVFX_469
+  - first:
+      213: 3200144672571881596
+    second: ExplosionVFX_470
+  - first:
+      213: -8195647227532246599
+    second: ExplosionVFX_471
+  - first:
+      213: 7311845217624537866
+    second: ExplosionVFX_472
+  - first:
+      213: -3008946668090581046
+    second: ExplosionVFX_473
+  - first:
+      213: 4001895723197236785
+    second: ExplosionVFX_474
+  - first:
+      213: -7762445962315205957
+    second: ExplosionVFX_475
+  - first:
+      213: -7879101563927916559
+    second: ExplosionVFX_476
+  - first:
+      213: -465967643711081995
+    second: ExplosionVFX_477
+  - first:
+      213: 943363983657496556
+    second: ExplosionVFX_478
+  - first:
+      213: -2287544283074196461
+    second: ExplosionVFX_479
+  - first:
+      213: -10138590151666784
+    second: ExplosionVFX_480
+  - first:
+      213: -8855568928725786025
+    second: ExplosionVFX_481
+  - first:
+      213: 47435159881313772
+    second: ExplosionVFX_482
+  - first:
+      213: 7369320115092731222
+    second: ExplosionVFX_483
+  - first:
+      213: -2717091250689134323
+    second: ExplosionVFX_484
+  - first:
+      213: 915244660249408867
+    second: ExplosionVFX_485
+  - first:
+      213: 7730293380541043055
+    second: ExplosionVFX_486
+  - first:
+      213: -2433135039196900817
+    second: ExplosionVFX_487
+  - first:
+      213: 588444490272651247
+    second: ExplosionVFX_488
+  - first:
+      213: -870910902572359330
+    second: ExplosionVFX_489
+  - first:
+      213: -4054662810381819776
+    second: ExplosionVFX_490
+  - first:
+      213: 1432838828572580238
+    second: ExplosionVFX_491
+  - first:
+      213: 3515294713941019582
+    second: ExplosionVFX_492
+  - first:
+      213: -7615493435784352588
+    second: ExplosionVFX_493
+  - first:
+      213: 3041345128172096710
+    second: ExplosionVFX_494
+  - first:
+      213: 4648280580884323646
+    second: ExplosionVFX_495
+  - first:
+      213: 7811243249154494291
+    second: ExplosionVFX_496
+  - first:
+      213: -3381657202276503313
+    second: ExplosionVFX_497
+  - first:
+      213: -668446475400324004
+    second: ExplosionVFX_498
+  - first:
+      213: 6627111558837580206
+    second: ExplosionVFX_499
+  - first:
+      213: -1655095441078405419
+    second: ExplosionVFX_500
+  - first:
+      213: -5641322473520187500
+    second: ExplosionVFX_501
+  - first:
+      213: -500617030061078986
+    second: ExplosionVFX_502
+  - first:
+      213: 757293864637998125
+    second: ExplosionVFX_503
+  - first:
+      213: 6674913985674927958
+    second: ExplosionVFX_504
+  - first:
+      213: -5009419406206241393
+    second: ExplosionVFX_505
+  - first:
+      213: 2671002099141605692
+    second: ExplosionVFX_506
+  - first:
+      213: 5530838458179529979
+    second: ExplosionVFX_507
+  - first:
+      213: 7152811324110783721
+    second: ExplosionVFX_508
+  - first:
+      213: 7249098443500275118
+    second: ExplosionVFX_509
+  - first:
+      213: -7728772029476775470
+    second: ExplosionVFX_510
+  - first:
+      213: -5435396280623068145
+    second: ExplosionVFX_511
+  - first:
+      213: -4493634394320048950
+    second: ExplosionVFX_512
+  - first:
+      213: 2038482966825053783
+    second: ExplosionVFX_513
+  - first:
+      213: 1004123887243733954
+    second: ExplosionVFX_514
+  - first:
+      213: 8810445885189148823
+    second: ExplosionVFX_515
+  - first:
+      213: 1075827581169247851
+    second: ExplosionVFX_516
+  - first:
+      213: -7209183749138924702
+    second: ExplosionVFX_517
+  - first:
+      213: 6813973376759193349
+    second: ExplosionVFX_518
+  - first:
+      213: 664214843402471411
+    second: ExplosionVFX_519
+  - first:
+      213: -565402904376271029
+    second: ExplosionVFX_520
+  - first:
+      213: 4226439338040753196
+    second: ExplosionVFX_521
+  - first:
+      213: -2468029306899678005
+    second: ExplosionVFX_522
+  - first:
+      213: 738726897620837902
+    second: ExplosionVFX_523
+  - first:
+      213: 2996593815410346548
+    second: ExplosionVFX_524
+  - first:
+      213: 578917143728143031
+    second: ExplosionVFX_525
+  - first:
+      213: -4784755276786509456
+    second: ExplosionVFX_526
+  - first:
+      213: 9137684540963614857
+    second: ExplosionVFX_527
+  - first:
+      213: 3892010866054558923
+    second: ExplosionVFX_528
+  - first:
+      213: -2882020629332807927
+    second: ExplosionVFX_529
+  - first:
+      213: 1391533459307386872
+    second: ExplosionVFX_530
+  - first:
+      213: 8692990070833621009
+    second: ExplosionVFX_531
+  - first:
+      213: 7261963741913084653
+    second: ExplosionVFX_532
+  - first:
+      213: -1441265451517861980
+    second: ExplosionVFX_533
+  - first:
+      213: -8658910248235354203
+    second: ExplosionVFX_534
+  - first:
+      213: -5585272467167826290
+    second: ExplosionVFX_535
+  - first:
+      213: -4710804519906103741
+    second: ExplosionVFX_536
+  - first:
+      213: 1327981887292212233
+    second: ExplosionVFX_537
+  - first:
+      213: 7054942699283348009
+    second: ExplosionVFX_538
+  - first:
+      213: 8452333068304228734
+    second: ExplosionVFX_539
+  - first:
+      213: 1621118143461073088
+    second: ExplosionVFX_540
+  - first:
+      213: -3847648136219904393
+    second: ExplosionVFX_541
+  - first:
+      213: 8457000301595360464
+    second: ExplosionVFX_542
+  - first:
+      213: 5394891208579555367
+    second: ExplosionVFX_543
+  - first:
+      213: 1046646989801902881
+    second: ExplosionVFX_544
+  - first:
+      213: -2198442613873747415
+    second: ExplosionVFX_545
+  - first:
+      213: 1360869775574143501
+    second: ExplosionVFX_546
+  - first:
+      213: 352147355243791156
+    second: ExplosionVFX_547
+  - first:
+      213: -1019066870478991903
+    second: ExplosionVFX_548
+  - first:
+      213: 3704380610137795839
+    second: ExplosionVFX_549
+  - first:
+      213: 5959461072339703108
+    second: ExplosionVFX_550
+  - first:
+      213: 8760702570816694948
+    second: ExplosionVFX_551
+  - first:
+      213: -4113510357805792379
+    second: ExplosionVFX_552
+  - first:
+      213: -8183398666899650440
+    second: ExplosionVFX_553
+  - first:
+      213: 6613623057702938897
+    second: ExplosionVFX_554
+  - first:
+      213: -3059872299431205955
+    second: ExplosionVFX_555
+  - first:
+      213: 1196471896518897042
+    second: ExplosionVFX_556
+  - first:
+      213: 7247740920312338131
+    second: ExplosionVFX_557
+  - first:
+      213: -7268268637098819998
+    second: ExplosionVFX_558
+  - first:
+      213: 4056077526068090073
+    second: ExplosionVFX_559
+  - first:
+      213: -8577293716548263625
+    second: ExplosionVFX_560
+  - first:
+      213: -5118202947369536746
+    second: ExplosionVFX_561
+  - first:
+      213: 6764210430600589781
+    second: ExplosionVFX_562
+  - first:
+      213: 2293758307589677120
+    second: ExplosionVFX_563
+  - first:
+      213: -5682227826536501620
+    second: ExplosionVFX_564
+  - first:
+      213: -3198018493940638923
+    second: ExplosionVFX_565
+  - first:
+      213: -1790548879468265454
+    second: ExplosionVFX_566
+  - first:
+      213: 505209663083186604
+    second: ExplosionVFX_567
+  - first:
+      213: 758246781123072761
+    second: ExplosionVFX_568
+  - first:
+      213: 707548003451772802
+    second: ExplosionVFX_569
+  - first:
+      213: -6572195470981968238
+    second: ExplosionVFX_570
+  - first:
+      213: -2293977105140259826
+    second: ExplosionVFX_571
+  - first:
+      213: -2763722171329688910
+    second: ExplosionVFX_572
+  - first:
+      213: 2937355428150665091
+    second: ExplosionVFX_573
+  - first:
+      213: 4184659838472072366
+    second: ExplosionVFX_574
+  - first:
+      213: -2069487462323139050
+    second: ExplosionVFX_575
+  - first:
+      213: -1696486109512182778
+    second: ExplosionVFX_576
+  - first:
+      213: 6496305416810882634
+    second: ExplosionVFX_577
+  - first:
+      213: 16994629272660575
+    second: ExplosionVFX_578
+  - first:
+      213: 4778610963108461532
+    second: ExplosionVFX_579
+  - first:
+      213: -4510360468652636744
+    second: ExplosionVFX_580
+  - first:
+      213: 4922447134631225227
+    second: ExplosionVFX_581
+  - first:
+      213: 7493992026587329990
+    second: ExplosionVFX_582
+  - first:
+      213: -7883042871201870462
+    second: ExplosionVFX_583
+  - first:
+      213: -5761843889192492931
+    second: ExplosionVFX_584
+  - first:
+      213: -6300167350310540188
+    second: ExplosionVFX_585
+  - first:
+      213: -2800827134756742276
+    second: ExplosionVFX_586
+  - first:
+      213: -3016983190739973472
+    second: ExplosionVFX_587
+  - first:
+      213: -5657838704427072910
+    second: ExplosionVFX_588
+  - first:
+      213: 5114240125545222230
+    second: ExplosionVFX_589
+  - first:
+      213: 2992419695799397360
+    second: ExplosionVFX_590
+  - first:
+      213: 1906712079140790459
+    second: ExplosionVFX_591
+  - first:
+      213: -8337653206238183636
+    second: ExplosionVFX_592
+  - first:
+      213: 8617667409945590989
+    second: ExplosionVFX_593
+  - first:
+      213: 9135101498819825429
+    second: ExplosionVFX_594
+  - first:
+      213: -5862106155093803128
+    second: ExplosionVFX_595
+  - first:
+      213: 7734571879307176915
+    second: ExplosionVFX_596
+  - first:
+      213: -2613226218819885876
+    second: ExplosionVFX_597
+  - first:
+      213: -3353236348450123358
+    second: ExplosionVFX_598
+  - first:
+      213: 6659070454649128708
+    second: ExplosionVFX_599
+  - first:
+      213: -1563308055135371600
+    second: ExplosionVFX_600
+  - first:
+      213: 8249202274132899219
+    second: ExplosionVFX_601
+  - first:
+      213: -2448523081343519039
+    second: ExplosionVFX_602
+  - first:
+      213: 2824046103392517776
+    second: ExplosionVFX_603
+  - first:
+      213: -3191866419558626169
+    second: ExplosionVFX_604
+  - first:
+      213: -6327710039264409571
+    second: ExplosionVFX_605
+  - first:
+      213: -8003409957709157843
+    second: ExplosionVFX_606
+  - first:
+      213: -1070359695009481390
+    second: ExplosionVFX_607
+  - first:
+      213: 1636221813508651024
+    second: ExplosionVFX_608
+  - first:
+      213: -7028674367398652782
+    second: ExplosionVFX_609
+  - first:
+      213: -3453904043813456056
+    second: ExplosionVFX_610
+  - first:
+      213: 4939398747639904194
+    second: ExplosionVFX_611
+  - first:
+      213: 1491828543460451820
+    second: ExplosionVFX_612
+  - first:
+      213: -3887482506701049887
+    second: ExplosionVFX_613
+  - first:
+      213: 3202585500510422923
+    second: ExplosionVFX_614
+  - first:
+      213: -6936507695922025728
+    second: ExplosionVFX_615
+  - first:
+      213: -4886047950801518087
+    second: ExplosionVFX_616
+  - first:
+      213: -2212105800627471309
+    second: ExplosionVFX_617
+  - first:
+      213: -7473106792133026297
+    second: ExplosionVFX_618
+  - first:
+      213: -518462114144812665
+    second: ExplosionVFX_619
+  - first:
+      213: -2065040329289328030
+    second: ExplosionVFX_620
+  - first:
+      213: 1027550425411917796
+    second: ExplosionVFX_621
+  - first:
+      213: -3478642686284829395
+    second: ExplosionVFX_622
+  - first:
+      213: -1617665831526543801
+    second: ExplosionVFX_623
+  - first:
+      213: 7041389017498523812
+    second: ExplosionVFX_624
+  - first:
+      213: 5749182617643687484
+    second: ExplosionVFX_625
+  - first:
+      213: -3017078214708448262
+    second: ExplosionVFX_626
+  - first:
+      213: 6585854186525571889
+    second: ExplosionVFX_627
+  - first:
+      213: -4354467625028976512
+    second: ExplosionVFX_628
+  - first:
+      213: 6245766836039260357
+    second: ExplosionVFX_629
+  - first:
+      213: -1168741591709476536
+    second: ExplosionVFX_630
+  - first:
+      213: 2095216050806983759
+    second: ExplosionVFX_631
+  - first:
+      213: -9077828622246691774
+    second: ExplosionVFX_632
+  - first:
+      213: 5080404458814565530
+    second: ExplosionVFX_633
+  - first:
+      213: -5674949001867357820
+    second: ExplosionVFX_634
+  - first:
+      213: 9173356410308937309
+    second: ExplosionVFX_635
+  - first:
+      213: -4746552249631052514
+    second: ExplosionVFX_636
+  - first:
+      213: 1247685077620272438
+    second: ExplosionVFX_637
+  - first:
+      213: 4116790289028714286
+    second: ExplosionVFX_638
+  - first:
+      213: 8422216668344539391
+    second: ExplosionVFX_639
+  - first:
+      213: 6606530319388836932
+    second: ExplosionVFX_640
+  - first:
+      213: 1927402000057761042
+    second: ExplosionVFX_641
+  - first:
+      213: 7348916676586284388
+    second: ExplosionVFX_642
+  - first:
+      213: 3427806420283064571
+    second: ExplosionVFX_643
+  - first:
+      213: 1838154117092121104
+    second: ExplosionVFX_644
+  - first:
+      213: 2386475170621808648
+    second: ExplosionVFX_645
+  - first:
+      213: 1740928865904066821
+    second: ExplosionVFX_646
+  - first:
+      213: -6565478106333297344
+    second: ExplosionVFX_647
+  - first:
+      213: -4649598668650662196
+    second: ExplosionVFX_648
+  - first:
+      213: 8621330648855507315
+    second: ExplosionVFX_649
+  - first:
+      213: 7309130492748631902
+    second: ExplosionVFX_650
+  - first:
+      213: 8907000211060555095
+    second: ExplosionVFX_651
+  - first:
+      213: -6478426529977378007
+    second: ExplosionVFX_652
+  - first:
+      213: 430203344744542229
+    second: ExplosionVFX_653
+  - first:
+      213: -8881726028246513263
+    second: ExplosionVFX_654
+  - first:
+      213: 8054854160512332232
+    second: ExplosionVFX_655
+  - first:
+      213: -1502162055200329098
+    second: ExplosionVFX_656
+  - first:
+      213: -3328571384682996326
+    second: ExplosionVFX_657
+  - first:
+      213: -1899902806356456990
+    second: ExplosionVFX_658
+  - first:
+      213: -3038125455237267145
+    second: ExplosionVFX_659
+  - first:
+      213: 4549867620360593156
+    second: ExplosionVFX_660
+  - first:
+      213: 4602054537191458102
+    second: ExplosionVFX_661
+  - first:
+      213: 3523200796607844346
+    second: ExplosionVFX_662
+  - first:
+      213: 4031031463243801194
+    second: ExplosionVFX_663
+  - first:
+      213: 4306731887803125939
+    second: ExplosionVFX_664
+  - first:
+      213: -1300128575215023671
+    second: ExplosionVFX_665
+  - first:
+      213: -3021096616046590043
+    second: ExplosionVFX_666
+  - first:
+      213: 8621875512649503880
+    second: ExplosionVFX_667
+  - first:
+      213: 5063782265276730863
+    second: ExplosionVFX_668
+  - first:
+      213: 4845423440291477636
+    second: ExplosionVFX_669
+  - first:
+      213: 8759918724153636055
+    second: ExplosionVFX_670
+  - first:
+      213: -2485595571714654638
+    second: ExplosionVFX_671
+  - first:
+      213: 7538356901324417835
+    second: ExplosionVFX_672
+  - first:
+      213: -9886261144369767
+    second: ExplosionVFX_673
+  - first:
+      213: -7214487865263929095
+    second: ExplosionVFX_674
+  - first:
+      213: -8068513560371646694
+    second: ExplosionVFX_675
+  - first:
+      213: 1424288618330046770
+    second: ExplosionVFX_676
+  - first:
+      213: 7477054963078205588
+    second: ExplosionVFX_677
+  - first:
+      213: 2332241944849938648
+    second: ExplosionVFX_678
+  - first:
+      213: -712879305077552576
+    second: ExplosionVFX_679
+  - first:
+      213: 6080959995186015851
+    second: ExplosionVFX_680
+  - first:
+      213: 3009030752994109990
+    second: ExplosionVFX_681
+  - first:
+      213: 6661569600061746840
+    second: ExplosionVFX_682
+  - first:
+      213: 5903365864021080953
+    second: ExplosionVFX_683
+  - first:
+      213: 4679977526206732459
+    second: ExplosionVFX_684
+  - first:
+      213: -7444770564454198628
+    second: ExplosionVFX_685
+  - first:
+      213: -5360514627285382607
+    second: ExplosionVFX_686
+  - first:
+      213: 2209489054354408462
+    second: ExplosionVFX_687
+  - first:
+      213: -6663353933201377219
+    second: ExplosionVFX_688
+  - first:
+      213: 4285724870764588101
+    second: ExplosionVFX_689
+  - first:
+      213: 1146156430786212181
+    second: ExplosionVFX_690
+  - first:
+      213: 3931806516091682316
+    second: ExplosionVFX_691
+  - first:
+      213: 3837257803814054092
+    second: ExplosionVFX_692
+  - first:
+      213: 8950165879381901415
+    second: ExplosionVFX_693
+  - first:
+      213: -3191904308678794036
+    second: ExplosionVFX_694
+  - first:
+      213: 3849536411550776296
+    second: ExplosionVFX_695
+  - first:
+      213: -626373662884342098
+    second: ExplosionVFX_696
+  - first:
+      213: 2297973045447976685
+    second: ExplosionVFX_697
+  - first:
+      213: -9165571099810746060
+    second: ExplosionVFX_698
+  - first:
+      213: -7425122687730238924
+    second: ExplosionVFX_699
+  - first:
+      213: 2407216254774832172
+    second: ExplosionVFX_700
+  - first:
+      213: 2882936890243648476
+    second: ExplosionVFX_701
+  - first:
+      213: -8012353832918506518
+    second: ExplosionVFX_702
+  - first:
+      213: 2555008896923119813
+    second: ExplosionVFX_703
+  - first:
+      213: 3631645308084857110
+    second: ExplosionVFX_704
+  - first:
+      213: 1523891427874798343
+    second: ExplosionVFX_705
+  - first:
+      213: 4634607223486749110
+    second: ExplosionVFX_706
+  - first:
+      213: 6985470456133864913
+    second: ExplosionVFX_707
+  - first:
+      213: -5025391896416600131
+    second: ExplosionVFX_708
+  - first:
+      213: -8906055623606574019
+    second: ExplosionVFX_709
+  - first:
+      213: 6891505432944511001
+    second: ExplosionVFX_710
+  - first:
+      213: -6169333065356327582
+    second: ExplosionVFX_711
+  - first:
+      213: -3553726166482207481
+    second: ExplosionVFX_712
+  - first:
+      213: -6718175020919782399
+    second: ExplosionVFX_713
+  - first:
+      213: -179451184078056103
+    second: ExplosionVFX_714
+  - first:
+      213: -3733851794155507621
+    second: ExplosionVFX_715
+  - first:
+      213: 4211721741365218900
+    second: ExplosionVFX_716
+  - first:
+      213: 8719412617561491678
+    second: ExplosionVFX_717
+  - first:
+      213: -4223479510096273408
+    second: ExplosionVFX_718
+  - first:
+      213: 7454251658153707034
+    second: ExplosionVFX_719
+  - first:
+      213: -5366149460927916745
+    second: ExplosionVFX_720
+  - first:
+      213: 7040762582290368868
+    second: ExplosionVFX_721
+  - first:
+      213: -5657518334649266329
+    second: ExplosionVFX_722
+  - first:
+      213: -3163067050531952964
+    second: ExplosionVFX_723
+  - first:
+      213: -7002900421854154297
+    second: ExplosionVFX_724
+  - first:
+      213: -6959285462837507109
+    second: ExplosionVFX_725
+  - first:
+      213: 5532605511091396507
+    second: ExplosionVFX_726
+  - first:
+      213: 6719514709861264980
+    second: ExplosionVFX_727
+  - first:
+      213: -4723503838188476895
+    second: ExplosionVFX_728
+  - first:
+      213: -8715355126589660603
+    second: ExplosionVFX_729
+  - first:
+      213: -2137355250052079722
+    second: ExplosionVFX_730
+  - first:
+      213: 7052314862108720924
+    second: ExplosionVFX_731
+  - first:
+      213: 4013399552982120523
+    second: ExplosionVFX_732
+  - first:
+      213: -3495068034459502061
+    second: ExplosionVFX_733
+  - first:
+      213: 7272835725826979582
+    second: ExplosionVFX_734
+  - first:
+      213: 3776719792121752154
+    second: ExplosionVFX_735
+  - first:
+      213: -928686379765756709
+    second: ExplosionVFX_736
+  - first:
+      213: -680303532817502687
+    second: ExplosionVFX_737
+  - first:
+      213: -5218849864642421152
+    second: ExplosionVFX_738
+  - first:
+      213: -4236082048790950994
+    second: ExplosionVFX_739
+  - first:
+      213: -2000675505635494158
+    second: ExplosionVFX_740
+  - first:
+      213: -3626554541784006233
+    second: ExplosionVFX_741
+  - first:
+      213: 1868803601058019931
+    second: ExplosionVFX_742
+  - first:
+      213: -8012394727742746654
+    second: ExplosionVFX_743
+  - first:
+      213: 1084852241224016089
+    second: ExplosionVFX_744
+  - first:
+      213: 3332679841886516043
+    second: ExplosionVFX_745
+  - first:
+      213: 2167981585307418805
+    second: ExplosionVFX_746
+  - first:
+      213: 1979791695263627319
+    second: ExplosionVFX_747
+  - first:
+      213: 9090607621151991384
+    second: ExplosionVFX_748
+  - first:
+      213: 7114311050904224053
+    second: ExplosionVFX_749
+  - first:
+      213: 8859323564962867734
+    second: ExplosionVFX_750
+  - first:
+      213: 1839992888588070312
+    second: ExplosionVFX_751
+  - first:
+      213: -7389345866010019031
+    second: ExplosionVFX_752
+  - first:
+      213: 3374689957800422590
+    second: ExplosionVFX_753
+  - first:
+      213: -3787479024439247637
+    second: ExplosionVFX_754
+  - first:
+      213: 8497306497582774152
+    second: ExplosionVFX_755
+  - first:
+      213: -2464019384786375079
+    second: ExplosionVFX_756
+  - first:
+      213: -8011949036226466937
+    second: ExplosionVFX_757
+  - first:
+      213: 6127222214402944376
+    second: ExplosionVFX_758
+  - first:
+      213: -5585096391514837898
+    second: ExplosionVFX_759
+  - first:
+      213: 4090017583322514739
+    second: ExplosionVFX_760
+  - first:
+      213: -8229368578485917995
+    second: ExplosionVFX_761
+  - first:
+      213: 8289614725060443613
+    second: ExplosionVFX_762
+  - first:
+      213: -5713355525671835937
+    second: ExplosionVFX_763
+  - first:
+      213: -4018134486378935688
+    second: ExplosionVFX_764
+  - first:
+      213: -5549477105438105384
+    second: ExplosionVFX_765
+  - first:
+      213: -7797434283879257977
+    second: ExplosionVFX_766
+  - first:
+      213: -8268121044904419774
+    second: ExplosionVFX_767
+  - first:
+      213: 2834352804242857844
+    second: ExplosionVFX_768
+  - first:
+      213: 5212637081794794720
+    second: ExplosionVFX_769
+  - first:
+      213: -3328971567700879302
+    second: ExplosionVFX_770
+  - first:
+      213: 2364096058151095998
+    second: ExplosionVFX_771
+  - first:
+      213: 7916288818174952509
+    second: ExplosionVFX_772
+  - first:
+      213: -549456649312787965
+    second: ExplosionVFX_773
+  - first:
+      213: -3489273790177149412
+    second: ExplosionVFX_774
+  - first:
+      213: -5794129501128167755
+    second: ExplosionVFX_775
+  - first:
+      213: -8527091664391386696
+    second: ExplosionVFX_776
+  - first:
+      213: -8114569435081484898
+    second: ExplosionVFX_777
+  - first:
+      213: 8817733425550415194
+    second: ExplosionVFX_778
+  - first:
+      213: 3364462433189586101
+    second: ExplosionVFX_779
+  - first:
+      213: 2912743679859330124
+    second: ExplosionVFX_780
+  - first:
+      213: -1728197714333910529
+    second: ExplosionVFX_781
+  - first:
+      213: 6777522393707269806
+    second: ExplosionVFX_782
+  - first:
+      213: -2618690848348468965
+    second: ExplosionVFX_783
+  - first:
+      213: -4987337084841005776
+    second: ExplosionVFX_784
+  - first:
+      213: 2198586011353332779
+    second: ExplosionVFX_785
+  - first:
+      213: -3593476970130397517
+    second: ExplosionVFX_786
+  - first:
+      213: 5477566281641596025
+    second: ExplosionVFX_787
+  - first:
+      213: -1583381275685398851
+    second: ExplosionVFX_788
+  - first:
+      213: -2076915341981296074
+    second: ExplosionVFX_789
+  - first:
+      213: -6004118175416309424
+    second: ExplosionVFX_790
+  - first:
+      213: -6044254454728485484
+    second: ExplosionVFX_791
+  - first:
+      213: 1135980724386347208
+    second: ExplosionVFX_792
+  - first:
+      213: -2761914659059693553
+    second: ExplosionVFX_793
+  - first:
+      213: -4519841757709099384
+    second: ExplosionVFX_794
+  - first:
+      213: -1821064338074190419
+    second: ExplosionVFX_795
+  - first:
+      213: -7031789518702831533
+    second: ExplosionVFX_796
+  - first:
+      213: 1376649785101157440
+    second: ExplosionVFX_797
+  - first:
+      213: 1974798353825782661
+    second: ExplosionVFX_798
+  - first:
+      213: -6476227409568166961
+    second: ExplosionVFX_799
+  - first:
+      213: 5405667866184218476
+    second: ExplosionVFX_800
+  - first:
+      213: 8461813882985569797
+    second: ExplosionVFX_801
+  - first:
+      213: 8195961745339540934
+    second: ExplosionVFX_802
+  - first:
+      213: 2436622418943580502
+    second: ExplosionVFX_803
+  - first:
+      213: 4092812876621037200
+    second: ExplosionVFX_804
+  - first:
+      213: -5431891746761918332
+    second: ExplosionVFX_805
+  - first:
+      213: 4152748265311789889
+    second: ExplosionVFX_806
+  - first:
+      213: 2100574461574629550
+    second: ExplosionVFX_807
+  - first:
+      213: -6139255715676079162
+    second: ExplosionVFX_808
+  - first:
+      213: 8466697859559916981
+    second: ExplosionVFX_809
+  - first:
+      213: 3152178910174948441
+    second: ExplosionVFX_810
+  - first:
+      213: 564515814036401298
+    second: ExplosionVFX_811
+  - first:
+      213: -4810152570103682460
+    second: ExplosionVFX_812
+  - first:
+      213: 7191918278178700893
+    second: ExplosionVFX_813
+  - first:
+      213: -512435608113165972
+    second: ExplosionVFX_814
+  - first:
+      213: 5045550400357779758
+    second: ExplosionVFX_815
+  - first:
+      213: -8705912079262760824
+    second: ExplosionVFX_816
+  - first:
+      213: 5536428152589418038
+    second: ExplosionVFX_817
+  - first:
+      213: -3705802021428622374
+    second: ExplosionVFX_818
+  - first:
+      213: -8964381680933952679
+    second: ExplosionVFX_819
+  - first:
+      213: 6844850539416486000
+    second: ExplosionVFX_820
+  - first:
+      213: -6223976034812004036
+    second: ExplosionVFX_821
+  - first:
+      213: -2018987807592139865
+    second: ExplosionVFX_822
+  - first:
+      213: -2935556216470939173
+    second: ExplosionVFX_823
+  - first:
+      213: -3091150891168232812
+    second: ExplosionVFX_824
+  - first:
+      213: 832985010850898802
+    second: ExplosionVFX_825
+  - first:
+      213: -2225709897760000009
+    second: ExplosionVFX_826
+  - first:
+      213: 4852608497623379312
+    second: ExplosionVFX_827
+  - first:
+      213: -9166899572896163323
+    second: ExplosionVFX_828
+  - first:
+      213: -5319237302719676673
+    second: ExplosionVFX_829
+  - first:
+      213: -2296101329206698097
+    second: ExplosionVFX_830
+  - first:
+      213: 3150450945248889172
+    second: ExplosionVFX_831
+  - first:
+      213: -8650802608546560488
+    second: ExplosionVFX_832
+  - first:
+      213: -8648160630879404770
+    second: ExplosionVFX_833
+  - first:
+      213: -2017887451973596268
+    second: ExplosionVFX_834
+  - first:
+      213: -8863533200386020406
+    second: ExplosionVFX_835
+  - first:
+      213: -6595034409776318974
+    second: ExplosionVFX_836
+  - first:
+      213: 1596565132681515006
+    second: ExplosionVFX_837
+  - first:
+      213: -8363376519833021019
+    second: ExplosionVFX_838
+  - first:
+      213: -7522694935360137293
+    second: ExplosionVFX_839
+  - first:
+      213: -3998190450976111866
+    second: ExplosionVFX_840
+  - first:
+      213: -4697003307598614311
+    second: ExplosionVFX_841
+  - first:
+      213: -5692433360945091275
+    second: ExplosionVFX_842
+  - first:
+      213: 3267217049655512819
+    second: ExplosionVFX_843
+  - first:
+      213: -8299507911051276356
+    second: ExplosionVFX_844
+  - first:
+      213: -5995620869944632827
+    second: ExplosionVFX_845
+  - first:
+      213: -6611655524059321997
+    second: ExplosionVFX_846
+  - first:
+      213: 1426992309908678751
+    second: ExplosionVFX_847
+  - first:
+      213: -6988270352646117630
+    second: ExplosionVFX_848
+  - first:
+      213: -347219233635678942
+    second: ExplosionVFX_849
+  - first:
+      213: -3846867425782861943
+    second: ExplosionVFX_850
+  - first:
+      213: -5970928173166919787
+    second: ExplosionVFX_851
+  - first:
+      213: 897114523007944217
+    second: ExplosionVFX_852
+  - first:
+      213: 593467168723633101
+    second: ExplosionVFX_853
+  - first:
+      213: -1150358879307699088
+    second: ExplosionVFX_854
+  - first:
+      213: -5310815824538456515
+    second: ExplosionVFX_855
+  - first:
+      213: -1315599967417282170
+    second: ExplosionVFX_856
+  - first:
+      213: -336185016571679385
+    second: ExplosionVFX_857
+  - first:
+      213: 1882951641387123353
+    second: ExplosionVFX_858
+  - first:
+      213: -2196489402001653085
+    second: ExplosionVFX_859
+  - first:
+      213: 739990827311098511
+    second: ExplosionVFX_860
+  - first:
+      213: -3015630362245731746
+    second: ExplosionVFX_861
+  - first:
+      213: 1666014282343622335
+    second: ExplosionVFX_862
+  - first:
+      213: 9141413584175789985
+    second: ExplosionVFX_863
+  - first:
+      213: -1544688548233814241
+    second: ExplosionVFX_864
+  - first:
+      213: -2978422878329207231
+    second: ExplosionVFX_865
+  - first:
+      213: 6562614485501981982
+    second: ExplosionVFX_866
+  - first:
+      213: -4488693651002984892
+    second: ExplosionVFX_867
+  - first:
+      213: -5695681427828680959
+    second: ExplosionVFX_868
+  - first:
+      213: 4339169410492354581
+    second: ExplosionVFX_869
+  - first:
+      213: 5908412615360029140
+    second: ExplosionVFX_870
+  - first:
+      213: -8451912182247333199
+    second: ExplosionVFX_871
+  - first:
+      213: -2309685758380072207
+    second: ExplosionVFX_872
+  - first:
+      213: -8601320759673107392
+    second: ExplosionVFX_873
+  - first:
+      213: -2037049386963256946
+    second: ExplosionVFX_874
+  - first:
+      213: 3637189790483226220
+    second: ExplosionVFX_875
+  - first:
+      213: 1622617753097998853
+    second: ExplosionVFX_876
+  - first:
+      213: -4626964556408998978
+    second: ExplosionVFX_877
+  - first:
+      213: 5126936535151368583
+    second: ExplosionVFX_878
+  - first:
+      213: 8194584229483006678
+    second: ExplosionVFX_879
+  - first:
+      213: 2241606848803589690
+    second: ExplosionVFX_880
+  - first:
+      213: -1944795209428946959
+    second: ExplosionVFX_881
+  - first:
+      213: -5917722256972675360
+    second: ExplosionVFX_882
+  - first:
+      213: -7961105642334787267
+    second: ExplosionVFX_883
+  - first:
+      213: 1676135105443689990
+    second: ExplosionVFX_884
+  - first:
+      213: -7449288198372488193
+    second: ExplosionVFX_885
+  - first:
+      213: 9197637397658184469
+    second: ExplosionVFX_886
+  - first:
+      213: -5510126253053219875
+    second: ExplosionVFX_887
+  - first:
+      213: 5248897212810526924
+    second: ExplosionVFX_888
+  - first:
+      213: 2016246728575576620
+    second: ExplosionVFX_889
+  - first:
+      213: -7920496711827084062
+    second: ExplosionVFX_890
+  - first:
+      213: -3321657190582868579
+    second: ExplosionVFX_891
+  - first:
+      213: -3897763852909454012
+    second: ExplosionVFX_892
+  - first:
+      213: 7199425849528435835
+    second: ExplosionVFX_893
+  - first:
+      213: 6524522118796886185
+    second: ExplosionVFX_894
+  - first:
+      213: -8391490648714422730
+    second: ExplosionVFX_895
+  - first:
+      213: 5480075232623493589
+    second: ExplosionVFX_896
+  - first:
+      213: -1408730847842285834
+    second: ExplosionVFX_897
+  - first:
+      213: -7721914928678158558
+    second: ExplosionVFX_898
+  - first:
+      213: -3907641126690786514
+    second: ExplosionVFX_899
+  - first:
+      213: -44458576763627537
+    second: ExplosionVFX_900
+  - first:
+      213: -8715774282937641795
+    second: ExplosionVFX_901
+  - first:
+      213: -2267288789667205992
+    second: ExplosionVFX_902
+  - first:
+      213: 7455237335977674973
+    second: ExplosionVFX_903
+  - first:
+      213: 3737561152664205989
+    second: ExplosionVFX_904
+  - first:
+      213: 1758605658059043124
+    second: ExplosionVFX_905
+  - first:
+      213: 5044332224792988471
+    second: ExplosionVFX_906
+  - first:
+      213: -7475840140979951434
+    second: ExplosionVFX_907
+  - first:
+      213: 998227620365098585
+    second: ExplosionVFX_908
+  - first:
+      213: -6787274225333083058
+    second: ExplosionVFX_909
+  - first:
+      213: -1304996063967114678
+    second: ExplosionVFX_910
+  - first:
+      213: 5566349253585629873
+    second: ExplosionVFX_911
+  - first:
+      213: -440799720074221345
+    second: ExplosionVFX_912
+  - first:
+      213: 268181658254322473
+    second: ExplosionVFX_913
+  - first:
+      213: 5398857654310259776
+    second: ExplosionVFX_914
+  - first:
+      213: -8075069981120325655
+    second: ExplosionVFX_915
+  - first:
+      213: -6666012552531033843
+    second: ExplosionVFX_916
+  - first:
+      213: 5526393957344514283
+    second: ExplosionVFX_917
+  - first:
+      213: -9026700471821431893
+    second: ExplosionVFX_918
+  - first:
+      213: -4505133905665529600
+    second: ExplosionVFX_919
+  - first:
+      213: -6308131453660532265
+    second: ExplosionVFX_920
+  - first:
+      213: -8991245652585646976
+    second: ExplosionVFX_921
+  - first:
+      213: -7998047148425716590
+    second: ExplosionVFX_922
+  - first:
+      213: -929238190353445154
+    second: ExplosionVFX_923
+  - first:
+      213: -4740133283936641025
+    second: ExplosionVFX_924
+  - first:
+      213: -2274910775385773030
+    second: ExplosionVFX_925
+  - first:
+      213: 8086538104585928198
+    second: ExplosionVFX_926
+  - first:
+      213: 7769795848600274119
+    second: ExplosionVFX_927
+  - first:
+      213: 1506564033365578002
+    second: ExplosionVFX_928
+  - first:
+      213: 2539357625162553863
+    second: ExplosionVFX_929
+  - first:
+      213: -6118137782394742611
+    second: ExplosionVFX_930
+  - first:
+      213: -1434269576477305712
+    second: ExplosionVFX_931
+  - first:
+      213: 6844119156338046598
+    second: ExplosionVFX_932
+  - first:
+      213: 971450702508451639
+    second: ExplosionVFX_933
+  - first:
+      213: 3754972962226220308
+    second: ExplosionVFX_934
+  - first:
+      213: -206122885697005815
+    second: ExplosionVFX_935
+  - first:
+      213: -2193175484129092786
+    second: ExplosionVFX_936
+  - first:
+      213: 428659662455988306
+    second: ExplosionVFX_937
+  - first:
+      213: -6106586198948927384
+    second: ExplosionVFX_938
+  - first:
+      213: 7002777046148420829
+    second: ExplosionVFX_939
+  - first:
+      213: 2507303739537197274
+    second: ExplosionVFX_940
+  - first:
+      213: -7736722395245147756
+    second: ExplosionVFX_941
+  - first:
+      213: -2269145301863981279
+    second: ExplosionVFX_942
+  - first:
+      213: 3923964365802791906
+    second: ExplosionVFX_943
+  - first:
+      213: 891852634271701896
+    second: ExplosionVFX_944
+  - first:
+      213: -6890480752589824285
+    second: ExplosionVFX_945
+  - first:
+      213: 5851013636734172689
+    second: ExplosionVFX_946
+  - first:
+      213: -972498142053549217
+    second: ExplosionVFX_947
+  - first:
+      213: -8169959285949596413
+    second: ExplosionVFX_948
+  - first:
+      213: -2102365625253900402
+    second: ExplosionVFX_949
+  - first:
+      213: 7115340808609807374
+    second: ExplosionVFX_950
+  - first:
+      213: 6347100670000256809
+    second: ExplosionVFX_951
+  - first:
+      213: -8754082732802927993
+    second: ExplosionVFX_952
+  - first:
+      213: -4002830431318237098
+    second: ExplosionVFX_953
+  - first:
+      213: 7019832291054027215
+    second: ExplosionVFX_954
+  - first:
+      213: 7063381384352952310
+    second: ExplosionVFX_955
+  - first:
+      213: -8058954405207649076
+    second: ExplosionVFX_956
+  - first:
+      213: -3103540758491545356
+    second: ExplosionVFX_957
+  - first:
+      213: -7845282895614576654
+    second: ExplosionVFX_958
+  - first:
+      213: -161252658073494633
+    second: ExplosionVFX_959
+  - first:
+      213: -5383380208006928248
+    second: ExplosionVFX_960
+  - first:
+      213: -3208351758800502973
+    second: ExplosionVFX_961
+  - first:
+      213: 7268524409350286886
+    second: ExplosionVFX_962
+  - first:
+      213: 6446254054446271343
+    second: ExplosionVFX_963
+  - first:
+      213: 3577842156189681949
+    second: ExplosionVFX_964
+  - first:
+      213: -7802222186703362371
+    second: ExplosionVFX_965
+  - first:
+      213: 3257882329770798233
+    second: ExplosionVFX_966
+  - first:
+      213: -3890389099902467169
+    second: ExplosionVFX_967
+  - first:
+      213: -6141846353029864202
+    second: ExplosionVFX_968
+  - first:
+      213: -7971066883647909846
+    second: ExplosionVFX_969
+  - first:
+      213: 8685049758934574160
+    second: ExplosionVFX_970
+  - first:
+      213: -8105336898254053994
+    second: ExplosionVFX_971
+  - first:
+      213: 2912130400759135404
+    second: ExplosionVFX_972
+  - first:
+      213: 8606799314541291374
+    second: ExplosionVFX_973
+  - first:
+      213: -1355292742634744955
+    second: ExplosionVFX_974
+  - first:
+      213: -5578639492375231207
+    second: ExplosionVFX_975
+  - first:
+      213: -3744378228688803431
+    second: ExplosionVFX_976
+  - first:
+      213: -521273139159699435
+    second: ExplosionVFX_977
+  - first:
+      213: 4545838114152584818
+    second: ExplosionVFX_978
+  - first:
+      213: 6174500338030685002
+    second: ExplosionVFX_979
+  - first:
+      213: -5044740908999563114
+    second: ExplosionVFX_980
+  - first:
+      213: -4596371933450870725
+    second: ExplosionVFX_981
+  - first:
+      213: 5096561936370346996
+    second: ExplosionVFX_982
+  - first:
+      213: -3879468106862782219
+    second: ExplosionVFX_983
+  - first:
+      213: -1415999345628066102
+    second: ExplosionVFX_984
+  - first:
+      213: 3915103365963431912
+    second: ExplosionVFX_985
+  - first:
+      213: 4321657359867959794
+    second: ExplosionVFX_986
+  - first:
+      213: 6980852631428370076
+    second: ExplosionVFX_987
+  - first:
+      213: 2347434982984694730
+    second: ExplosionVFX_988
+  - first:
+      213: 1310130169454795216
+    second: ExplosionVFX_989
+  - first:
+      213: 2858285846675669757
+    second: ExplosionVFX_990
+  - first:
+      213: -8543726020736591052
+    second: ExplosionVFX_991
+  - first:
+      213: 6747806484926413263
+    second: ExplosionVFX_992
+  - first:
+      213: -380795931583650498
+    second: ExplosionVFX_993
+  - first:
+      213: 126881358014575990
+    second: ExplosionVFX_994
+  - first:
+      213: 4481640859421166885
+    second: ExplosionVFX_995
+  - first:
+      213: 696815719985824536
+    second: ExplosionVFX_996
+  - first:
+      213: -5088667703114771094
+    second: ExplosionVFX_997
+  - first:
+      213: -5130422529792182346
+    second: ExplosionVFX_998
+  - first:
+      213: -1102067155576456250
+    second: ExplosionVFX_999
+  - first:
+      213: 4944855034135318345
+    second: ExplosionVFX_1000
+  - first:
+      213: -1711424647150302449
+    second: ExplosionVFX_1001
+  - first:
+      213: 2356894013104359562
+    second: ExplosionVFX_1002
+  - first:
+      213: -5229411377717089288
+    second: ExplosionVFX_1003
+  - first:
+      213: -5028439692314426582
+    second: ExplosionVFX_1004
+  - first:
+      213: 1601181038422208299
+    second: ExplosionVFX_1005
+  - first:
+      213: 7861782476534343367
+    second: ExplosionVFX_1006
+  - first:
+      213: -7905216612339687688
+    second: ExplosionVFX_1007
+  - first:
+      213: -1131902149080212228
+    second: ExplosionVFX_1008
+  - first:
+      213: 4876251265189972492
+    second: ExplosionVFX_1009
+  - first:
+      213: -2056179951104730338
+    second: ExplosionVFX_1010
+  - first:
+      213: -8780694783618825077
+    second: ExplosionVFX_1011
+  - first:
+      213: -1486927066589208242
+    second: ExplosionVFX_1012
+  - first:
+      213: 4384365552557223830
+    second: ExplosionVFX_1013
+  - first:
+      213: -6238745813878654219
+    second: ExplosionVFX_1014
+  - first:
+      213: 8785072809372733593
+    second: ExplosionVFX_1015
+  - first:
+      213: -4134429445811038377
+    second: ExplosionVFX_1016
+  - first:
+      213: -3945282822253069830
+    second: ExplosionVFX_1017
+  - first:
+      213: 8962116683376737732
+    second: ExplosionVFX_1018
+  - first:
+      213: -3706174579583011454
+    second: ExplosionVFX_1019
+  - first:
+      213: 4262340136799076296
+    second: ExplosionVFX_1020
+  - first:
+      213: -1680339359082863697
+    second: ExplosionVFX_1021
+  - first:
+      213: 4705420933519210468
+    second: ExplosionVFX_1022
+  - first:
+      213: 7797824451737440562
+    second: ExplosionVFX_1023
+  - first:
+      213: -1445223198969833936
+    second: ExplosionVFX_1024
+  - first:
+      213: 2240048843560631648
+    second: ExplosionVFX_1025
+  - first:
+      213: 3832581706352081362
+    second: ExplosionVFX_1026
+  - first:
+      213: -4830560755704233518
+    second: ExplosionVFX_1027
+  - first:
+      213: -8363646685926334635
+    second: ExplosionVFX_1028
+  - first:
+      213: -6467212523493099533
+    second: ExplosionVFX_1029
+  - first:
+      213: 7693423272477155434
+    second: ExplosionVFX_1030
+  - first:
+      213: 6107078488975518632
+    second: ExplosionVFX_1031
+  - first:
+      213: -7447374273059226556
+    second: ExplosionVFX_1032
+  - first:
+      213: -1664258750563265415
+    second: ExplosionVFX_1033
+  - first:
+      213: 7678489293921467308
+    second: ExplosionVFX_1034
+  - first:
+      213: -5234401369123848436
+    second: ExplosionVFX_1035
+  - first:
+      213: -4801048579520588205
+    second: ExplosionVFX_1036
+  - first:
+      213: -2749874431976814017
+    second: ExplosionVFX_1037
+  - first:
+      213: -2077651941594069134
+    second: ExplosionVFX_1038
+  - first:
+      213: -675385193663960083
+    second: ExplosionVFX_1039
+  - first:
+      213: -189738898970832616
+    second: ExplosionVFX_1040
+  - first:
+      213: -7509621472500017437
+    second: ExplosionVFX_1041
+  - first:
+      213: -8913045541606459869
+    second: ExplosionVFX_1042
+  - first:
+      213: -6285345100697913311
+    second: ExplosionVFX_1043
+  - first:
+      213: -4692151507156957696
+    second: ExplosionVFX_1044
+  - first:
+      213: -6496720442547050723
+    second: ExplosionVFX_1045
+  - first:
+      213: 4345892864674580256
+    second: ExplosionVFX_1046
+  - first:
+      213: 6690188474527480343
+    second: ExplosionVFX_1047
+  - first:
+      213: -620955360906388555
+    second: ExplosionVFX_1048
+  - first:
+      213: 5428093854301727645
+    second: ExplosionVFX_1049
+  - first:
+      213: -2948510157347953460
+    second: ExplosionVFX_1050
+  - first:
+      213: -2413354998067484577
+    second: ExplosionVFX_1051
+  - first:
+      213: 4391616146491690417
+    second: ExplosionVFX_1052
+  - first:
+      213: -9201603455144271310
+    second: ExplosionVFX_1053
+  - first:
+      213: -3870667837352113867
+    second: ExplosionVFX_1054
+  - first:
+      213: 5997902796778936144
+    second: ExplosionVFX_1055
+  - first:
+      213: -1480950843953648633
+    second: ExplosionVFX_1056
+  - first:
+      213: 8864119796746840435
+    second: ExplosionVFX_1057
+  - first:
+      213: 7439715965421689913
+    second: ExplosionVFX_1058
+  - first:
+      213: -8873622835460879892
+    second: ExplosionVFX_1059
+  - first:
+      213: -4824586991345767343
+    second: ExplosionVFX_1060
+  - first:
+      213: 6212572721648689007
+    second: ExplosionVFX_1061
+  - first:
+      213: -125721921837643054
+    second: ExplosionVFX_1062
+  - first:
+      213: 8795708470339711460
+    second: ExplosionVFX_1063
+  - first:
+      213: 8958751758827054265
+    second: ExplosionVFX_1064
+  - first:
+      213: 4864598201964943142
+    second: ExplosionVFX_1065
+  - first:
+      213: -6266533806290333226
+    second: ExplosionVFX_1066
+  - first:
+      213: 8535168483959171988
+    second: ExplosionVFX_1067
+  - first:
+      213: 1073645808224204069
+    second: ExplosionVFX_1068
+  - first:
+      213: -5109923131061417580
+    second: ExplosionVFX_1069
+  - first:
+      213: 1259937313208598285
+    second: ExplosionVFX_1070
+  - first:
+      213: 8521666214910892152
+    second: ExplosionVFX_1071
+  - first:
+      213: -1174694157581223857
+    second: ExplosionVFX_1072
+  - first:
+      213: -5760441222734379945
+    second: ExplosionVFX_1073
+  - first:
+      213: -3960728241345771795
+    second: ExplosionVFX_1074
+  - first:
+      213: -7400034020262505618
+    second: ExplosionVFX_1075
+  - first:
+      213: 4822579303675395148
+    second: ExplosionVFX_1076
+  - first:
+      213: 5611834990048829642
+    second: ExplosionVFX_1077
+  - first:
+      213: -7681552430963249712
+    second: ExplosionVFX_1078
+  - first:
+      213: 3355425937643613164
+    second: ExplosionVFX_1079
+  - first:
+      213: -901814418110938664
+    second: ExplosionVFX_1080
+  - first:
+      213: -6704900762548240890
+    second: ExplosionVFX_1081
+  - first:
+      213: 5257348606914371199
+    second: ExplosionVFX_1082
+  - first:
+      213: 4319231282587445909
+    second: ExplosionVFX_1083
+  - first:
+      213: 6095972611364721732
+    second: ExplosionVFX_1084
+  - first:
+      213: -496698095013861907
+    second: ExplosionVFX_1085
+  - first:
+      213: -6846337532254225506
+    second: ExplosionVFX_1086
+  - first:
+      213: -1435785937788838090
+    second: ExplosionVFX_1087
+  - first:
+      213: -8794415434746873088
+    second: ExplosionVFX_1088
+  - first:
+      213: -533181476640477383
+    second: ExplosionVFX_1089
+  - first:
+      213: 8810255712121165913
+    second: ExplosionVFX_1090
+  - first:
+      213: -7685449023001661192
+    second: ExplosionVFX_1091
+  - first:
+      213: -7656973338244031580
+    second: ExplosionVFX_1092
+  - first:
+      213: 5686586022862094451
+    second: ExplosionVFX_1093
+  - first:
+      213: 4607656088259151928
+    second: ExplosionVFX_1094
+  - first:
+      213: 1544065096713495494
+    second: ExplosionVFX_1095
+  - first:
+      213: -5814715531153262275
+    second: ExplosionVFX_1096
+  - first:
+      213: 1583543952272038737
+    second: ExplosionVFX_1097
+  - first:
+      213: 2451245109048603434
+    second: ExplosionVFX_1098
+  - first:
+      213: 4853228634459660238
+    second: ExplosionVFX_1099
+  - first:
+      213: 6888937722960301010
+    second: ExplosionVFX_1100
+  - first:
+      213: 6164298874869339787
+    second: ExplosionVFX_1101
+  - first:
+      213: -796176449123357363
+    second: ExplosionVFX_1102
+  - first:
+      213: -1715507395901978865
+    second: ExplosionVFX_1103
+  - first:
+      213: -6583320296571911132
+    second: ExplosionVFX_1104
+  - first:
+      213: 1245875598008371071
+    second: ExplosionVFX_1105
+  - first:
+      213: 1469058140534944868
+    second: ExplosionVFX_1106
+  - first:
+      213: 1938416000194784577
+    second: ExplosionVFX_1107
+  - first:
+      213: 3669112393505938550
+    second: ExplosionVFX_1108
+  - first:
+      213: -6225100677853040914
+    second: ExplosionVFX_1109
+  - first:
+      213: 5136686729200717474
+    second: ExplosionVFX_1110
+  - first:
+      213: -2224876915976133746
+    second: ExplosionVFX_1111
+  - first:
+      213: 2088300520771461513
+    second: ExplosionVFX_1112
+  - first:
+      213: -6781810440032990784
+    second: ExplosionVFX_1113
+  - first:
+      213: -6749311296457314341
+    second: ExplosionVFX_1114
+  - first:
+      213: -5344567155776483100
+    second: ExplosionVFX_1115
+  - first:
+      213: 8750120714662916379
+    second: ExplosionVFX_1116
+  - first:
+      213: 5454423731697342159
+    second: ExplosionVFX_1117
+  - first:
+      213: 5106581514545430285
+    second: ExplosionVFX_1118
+  - first:
+      213: -8671536057964712135
+    second: ExplosionVFX_1119
+  - first:
+      213: 6087391514916137389
+    second: ExplosionVFX_1120
+  - first:
+      213: -5877715570901469809
+    second: ExplosionVFX_1121
+  - first:
+      213: -854346750383651848
+    second: ExplosionVFX_1122
+  - first:
+      213: -3735420653057446215
+    second: ExplosionVFX_1123
+  - first:
+      213: 9217863362759822973
+    second: ExplosionVFX_1124
+  - first:
+      213: 1947463276451262357
+    second: ExplosionVFX_1125
+  - first:
+      213: 3719013304420255615
+    second: ExplosionVFX_1126
+  - first:
+      213: -3396939057831205496
+    second: ExplosionVFX_1127
+  - first:
+      213: -1679592619453587341
+    second: ExplosionVFX_1128
+  - first:
+      213: 8552399076692919258
+    second: ExplosionVFX_1129
+  - first:
+      213: 8613445053647019781
+    second: ExplosionVFX_1130
+  - first:
+      213: -7595285969000578187
+    second: ExplosionVFX_1131
+  - first:
+      213: -7870733606517533253
+    second: ExplosionVFX_1132
+  - first:
+      213: 6742596233370411603
+    second: ExplosionVFX_1133
+  - first:
+      213: -4470343447468646775
+    second: ExplosionVFX_1134
+  - first:
+      213: 7468386176366224197
+    second: ExplosionVFX_1135
+  - first:
+      213: 6791928245958873497
+    second: ExplosionVFX_1136
+  - first:
+      213: 3087236539254871856
+    second: ExplosionVFX_1137
+  - first:
+      213: -7008580822691343783
+    second: ExplosionVFX_1138
+  - first:
+      213: -2703601587466014739
+    second: ExplosionVFX_1139
+  - first:
+      213: -6344686677318161598
+    second: ExplosionVFX_1140
+  - first:
+      213: -5205366398561530884
+    second: ExplosionVFX_1141
+  - first:
+      213: 6159247769593957352
+    second: ExplosionVFX_1142
+  - first:
+      213: -8557893500988808329
+    second: ExplosionVFX_1143
+  - first:
+      213: -9014274300043752229
+    second: ExplosionVFX_1144
+  - first:
+      213: 2330703861781593385
+    second: ExplosionVFX_1145
+  - first:
+      213: -6752459463104739133
+    second: ExplosionVFX_1146
+  - first:
+      213: 7920179719413495899
+    second: ExplosionVFX_1147
+  - first:
+      213: -6242417742939306814
+    second: ExplosionVFX_1148
+  - first:
+      213: -3322979921358993624
+    second: ExplosionVFX_1149
+  - first:
+      213: -3512551966464864324
+    second: ExplosionVFX_1150
+  - first:
+      213: 2374651849141395332
+    second: ExplosionVFX_1151
+  - first:
+      213: -7841398103857198655
+    second: ExplosionVFX_1152
+  - first:
+      213: 308112819692165002
+    second: ExplosionVFX_1153
+  - first:
+      213: -7359246175190108577
+    second: ExplosionVFX_1154
+  - first:
+      213: 3841479394659438944
+    second: ExplosionVFX_1155
+  - first:
+      213: 7115704206150570553
+    second: ExplosionVFX_1156
+  - first:
+      213: 1024474706764153463
+    second: ExplosionVFX_1157
+  - first:
+      213: 5418380543364819137
+    second: ExplosionVFX_1158
+  - first:
+      213: -2943572336912079472
+    second: ExplosionVFX_1159
+  - first:
+      213: 1445927549855455147
+    second: ExplosionVFX_1160
+  - first:
+      213: -3951126241647019726
+    second: ExplosionVFX_1161
+  - first:
+      213: 6654681423677799425
+    second: ExplosionVFX_1162
+  - first:
+      213: -7932169587178427337
+    second: ExplosionVFX_1163
+  - first:
+      213: 8393880290043413439
+    second: ExplosionVFX_1164
+  - first:
+      213: -8669808248006051605
+    second: ExplosionVFX_1165
+  - first:
+      213: 5230688710671172876
+    second: ExplosionVFX_1166
+  - first:
+      213: -4772640287799354426
+    second: ExplosionVFX_1167
+  - first:
+      213: 729466890670896335
+    second: ExplosionVFX_1168
+  - first:
+      213: -2400081107863185272
+    second: ExplosionVFX_1169
+  - first:
+      213: 4638365954848739818
+    second: ExplosionVFX_1170
+  - first:
+      213: 3087021835902207672
+    second: ExplosionVFX_1171
+  - first:
+      213: -5705324123344136534
+    second: ExplosionVFX_1172
+  - first:
+      213: -6078834247652128839
+    second: ExplosionVFX_1173
+  - first:
+      213: -7847485768110554451
+    second: ExplosionVFX_1174
+  - first:
+      213: 8188778147036093275
+    second: ExplosionVFX_1175
+  - first:
+      213: -3511389156688402158
+    second: ExplosionVFX_1176
+  - first:
+      213: -2253587468595280453
+    second: ExplosionVFX_1177
+  - first:
+      213: 6189409959535514575
+    second: ExplosionVFX_1178
+  - first:
+      213: -4688467451537317408
+    second: ExplosionVFX_1179
+  - first:
+      213: -7976256838717756372
+    second: ExplosionVFX_1180
+  - first:
+      213: -533420852200962506
+    second: ExplosionVFX_1181
+  - first:
+      213: -6508167462687502671
+    second: ExplosionVFX_1182
+  - first:
+      213: 75322008121248281
+    second: ExplosionVFX_1183
+  - first:
+      213: -8826027890807923482
+    second: ExplosionVFX_1184
+  - first:
+      213: -2102612885371720302
+    second: ExplosionVFX_1185
+  - first:
+      213: -1111422722332396995
+    second: ExplosionVFX_1186
+  - first:
+      213: -8487490859927222909
+    second: ExplosionVFX_1187
+  - first:
+      213: -5870254136623791219
+    second: ExplosionVFX_1188
+  - first:
+      213: -7339560777942872385
+    second: ExplosionVFX_1189
+  - first:
+      213: -15216775196615674
+    second: ExplosionVFX_1190
+  - first:
+      213: -6202268048148096494
+    second: ExplosionVFX_1191
+  - first:
+      213: 7675906533511775993
+    second: ExplosionVFX_1192
+  - first:
+      213: 7941427313148516790
+    second: ExplosionVFX_1193
+  - first:
+      213: -681449319854524298
+    second: ExplosionVFX_1194
+  - first:
+      213: 9104554017801611162
+    second: ExplosionVFX_1195
+  - first:
+      213: 2067314706929458277
+    second: ExplosionVFX_1196
+  - first:
+      213: -1324900747340924519
+    second: ExplosionVFX_1197
+  - first:
+      213: 4366226954132224341
+    second: ExplosionVFX_1198
+  - first:
+      213: -5827210429053575520
+    second: ExplosionVFX_1199
+  - first:
+      213: 9030204779085502939
+    second: ExplosionVFX_1200
+  - first:
+      213: 9026014550400654808
+    second: ExplosionVFX_1201
+  - first:
+      213: -3644850100033780037
+    second: ExplosionVFX_1202
+  - first:
+      213: -7128876063804466490
+    second: ExplosionVFX_1203
+  - first:
+      213: -6022655313387618582
+    second: ExplosionVFX_1204
+  - first:
+      213: -3516698980829073765
+    second: ExplosionVFX_1205
+  - first:
+      213: 4710698752681508472
+    second: ExplosionVFX_1206
+  - first:
+      213: 517413266396739414
+    second: ExplosionVFX_1207
+  - first:
+      213: -3847400224856991864
+    second: ExplosionVFX_1208
+  - first:
+      213: 8496834462125963281
+    second: ExplosionVFX_1209
+  - first:
+      213: 9220047202964272314
+    second: ExplosionVFX_1210
+  - first:
+      213: 1697039679334134771
+    second: ExplosionVFX_1211
+  - first:
+      213: -336323925553647494
+    second: ExplosionVFX_1212
+  - first:
+      213: 5063411058215457300
+    second: ExplosionVFX_1213
+  - first:
+      213: -7473453517684415812
+    second: ExplosionVFX_1214
+  - first:
+      213: 3520783042517877800
+    second: ExplosionVFX_1215
+  - first:
+      213: -2498188617491475578
+    second: ExplosionVFX_1216
+  - first:
+      213: -1995222348249663763
+    second: ExplosionVFX_1217
+  - first:
+      213: -6383182765797231405
+    second: ExplosionVFX_1218
+  - first:
+      213: -4077759045828629440
+    second: ExplosionVFX_1219
+  - first:
+      213: -6780783453049317593
+    second: ExplosionVFX_1220
+  - first:
+      213: -8355138001929952231
+    second: ExplosionVFX_1221
+  - first:
+      213: -1659555116107629885
+    second: ExplosionVFX_1222
+  - first:
+      213: 285041369031490564
+    second: ExplosionVFX_1223
+  - first:
+      213: -7155460983776513676
+    second: ExplosionVFX_1224
+  - first:
+      213: 5897402597159311873
+    second: ExplosionVFX_1225
+  - first:
+      213: -3461614473195501142
+    second: ExplosionVFX_1226
+  - first:
+      213: -6288996503206166549
+    second: ExplosionVFX_1227
+  - first:
+      213: -6875135706058398877
+    second: ExplosionVFX_1228
+  - first:
+      213: 5207579208606209713
+    second: ExplosionVFX_1229
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Explosion VFX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93598b615b0962048a5d91760dcc2f84
+      internalID: -1119638520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ac63a004b90514ea78dc0ddc734615
+      internalID: 1097215072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb74ca62d6031c4faa0ea150f3a407a
+      internalID: 1737054418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07669439acd4264498bf8468b8f3526
+      internalID: 75451875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f27259a9cf97c4f9f6f116397e5b0d
+      internalID: 1565572757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf535b4d8025ec4a9fd95b72c0b422a
+      internalID: -1777495820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3002e5cb95ddc4ba1b181b1c109a1e
+      internalID: 1357425879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_7
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d0926af2c9229469347f148e965272
+      internalID: -1404849370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cc2f84ecb9d6d42ad47f9bf53da25c
+      internalID: -431597511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_9
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacd3f3fd2435c94fbcaaa0349d08fb8
+      internalID: -1791178280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_10
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0812f259a50e24bb1338c23f57c921
+      internalID: 882767353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_11
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 3120
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baba6ec1d8a57db4d809bd8f039ced4c
+      internalID: -1482459653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f5021a3eca79040b32b8983f048d90
+      internalID: 1330792546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4220451483f6bbc449aa13124b2f41f6
+      internalID: 30536956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fffe6d4da35a9489663b1fcf6d7ff0
+      internalID: 484761959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c9f7e5dcbb7994d844504c7d894519
+      internalID: 1468432134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af374d928e84fdb45823836a1296dca9
+      internalID: -359409782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_17
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60afb658265d341498575128932d9fc0
+      internalID: 283355528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61475def0e478ed47ae55af7a0008c24
+      internalID: 517115335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_19
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a8bad836f45a54c87b1d65b7d89f38
+      internalID: 544175589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a760aed548ec8943a3a681c31c389f3
+      internalID: 20887414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_21
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259d16f2307904c4ca159e010e37d2de
+      internalID: 1137336453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_22
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60d7a4dfed11e04598ddf37dc531704
+      internalID: 644769079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_23
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2880
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66e72e3893ea7546a84eb226dc4ece2
+      internalID: -718697518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ee5fdd66a0dc2409f1800a8975e146
+      internalID: 140033313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1618c6ed5d6b5418a48b880e3cb967
+      internalID: 640979106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bfde20302fbb44fab03cb9eada107d
+      internalID: 467080710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2025a306060f6c34cade1e43aa422846
+      internalID: -908431188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a96b604d033c094cadeb0adf1367f98
+      internalID: 2100233731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_29
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c310b91cb6d90458282c7f943a6559
+      internalID: -497524805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_30
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d167d01b97948ae41bf4d895d39318c6
+      internalID: -7906112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_31
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157a935f2981e3a4eb6d05d66645ea27
+      internalID: -1312759489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_32
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283275ec4bd30c6478b108811f597d3e
+      internalID: -2021275924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_33
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad21558a4b3058489a133c0ec7d8d7d
+      internalID: -1424811515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_34
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a756997b1c3074a9e9ac57943945c8
+      internalID: 434858708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_35
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2640
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbe6a6119b92c34fbba33374db627a5
+      internalID: 278906111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c41a379c79aff4c8d29e57e3c03cfc
+      internalID: 1506657638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141c4a5081fc20e4698374c261566693
+      internalID: 796948877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_38
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b54eb92bd75d64fa5a6c0a0ffa6ee0
+      internalID: -1720987417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_39
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cfdd5ec97b15f46b6c4479f9cda96e
+      internalID: 642172718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_40
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de5eb4d30765db4eae4ed2ceed59bac
+      internalID: 1200206606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_41
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be592ac4798a0c49b2d4ec56201c736
+      internalID: 1353965465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_42
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952a852cd99f5c44884c1ed998fe2b36
+      internalID: 1260217849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_43
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927aaf404e9fcd6469f46907f0764063
+      internalID: -1561237216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_44
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6318747080941284a92dbdc2963a2c3f
+      internalID: 969765949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_45
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98ee51d5e5cf944483977d2785be52d
+      internalID: -930856572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_46
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8382516ec35814ba584ec51b8a21a7
+      internalID: 1060085119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_47
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2400
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37f02793df5bcd4a8dd0352421c0ee1
+      internalID: 1140545947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be0e6acb196e564a91acfd2d249ac4a
+      internalID: -2132020383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_49
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cd89edd9da7214cb73fac606d77364
+      internalID: 1075021162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_50
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7374dfa28f2fc094bb898f9f5e027574
+      internalID: -761942055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_51
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c36b45075bcb844a8ea5ce3b018e05f
+      internalID: -339385524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_52
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74c48de5a49ce4408572c501b79dd8b
+      internalID: -538447478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_53
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95acdfa2efa706a43803b64a3c62563b
+      internalID: -682959793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_54
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74af399cbdd55448bc06da5e3495aeb
+      internalID: 209851400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_55
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c8fd322f87f4243ae8e82c9cd65de3
+      internalID: -961825898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_56
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9308b5ce6d9c3014f87f2651648a0dda
+      internalID: -483537282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_57
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319ee1027c711f943854a3e6f30ef79f
+      internalID: -432015768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_58
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97d75fe86917c045ab726e6c3e86fd4
+      internalID: -1228417439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_59
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2160
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90681f7eae0e77f4d8c71b3debf02f9d
+      internalID: 1107633080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5225d674af8da347897fbb573c74407
+      internalID: -180239212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_61
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec1ffc961f64914597ee845d8d7a03a
+      internalID: 710066123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_62
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc647b7da1c0614b9bd6bdcae27bf27
+      internalID: 65078330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_63
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6d728fafb867647bef1e5329d1fe95
+      internalID: -1372036491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_64
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cf7c22e8647cc4586f5695235fe8d7
+      internalID: 174612710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_65
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8226091adeb235f47b32af180569801f
+      internalID: 1052154830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_66
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7d7cc802783a944b9dbb5c04ff7ca8
+      internalID: 1586648861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_67
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339e969723b704b4e9aa4c99f30c9c63
+      internalID: 352270668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_68
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aecc7d8984bff64c8eb9bcef10be83d
+      internalID: -804427218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_69
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608e11b53cf957f4aa30699dcef10702
+      internalID: 139928651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_70
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf470bcbb96382345ba4669a17c77555
+      internalID: 538789788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_71
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1920
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea538fc53ffd764e877985170e9b63f
+      internalID: 2016751168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4496d5d2f23324b9221bd0e7df6473
+      internalID: -1665693901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_73
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586109dee645c5e48b3ba42df563a4e2
+      internalID: -1027001792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_74
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b03537f179fb7409a5c2836ceabb40
+      internalID: -860471038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_75
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d453f7000102fa34da2040592ecb07c8
+      internalID: 1124468106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_76
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b731454a0be69e542afa46a79d0ac7f5
+      internalID: 863633716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_77
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76ee8a219f33c84488e79a9a1fb6a04
+      internalID: 187794051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_78
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47ac55b0c66d85499c48740e7b7ce23
+      internalID: -66458900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_79
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d31a3a0c724f824989b586fa4e39432
+      internalID: 2054901921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_80
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c971f0e09b41b4b8c75023e8aa904a
+      internalID: 1382228919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_81
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c7baf53e809464d9c0dcccd7265037
+      internalID: -300306885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_82
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c477eaf22f5bf44a3d43b6c77e6da0
+      internalID: 660834904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_83
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1680
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bf9fe8bec75fa41ac4abdb74dfeb99
+      internalID: -66248932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fff086d268b0c448906834687c7407
+      internalID: 1339687568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_85
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad69db5056e6cc84b89351a13a1603b9
+      internalID: 839334563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_86
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93633f5f2ec1d1c4fa2c2c8f6fb366b7
+      internalID: -2095551342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_87
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03db9947f7f4e84b9d2c765c2d2d891
+      internalID: 719201941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_88
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e2b820b71bbeb4295708005e80b0d7
+      internalID: 1169333802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_89
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b561478f983a4f94d946a65046253bd1
+      internalID: -363136317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_90
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e000fde2cae036498416b5adab441c8
+      internalID: 355698338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_91
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e04466a6e4318d4693ce0fb1053b3b8
+      internalID: 980015842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_92
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6a08ae3f960844986b54344ea08dbb
+      internalID: -1157675410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_93
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcfbb0c49598324b9ebbe0db4d5035d
+      internalID: 1665937383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_94
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1dfec1a0b767549bd0585d16be46c7
+      internalID: 1317076881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_95
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1440
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd72b939c167564e833087f00efc89a
+      internalID: -1551891056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f41852d81e773d4eb64ea9bad15d169
+      internalID: -1392767563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_97
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cf7c490575a9840a717d2a2a0b74ab
+      internalID: 840257548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_98
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6afa239da7cc140b92a919d0a7ee38
+      internalID: 86467640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_99
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0ff9ed1666d23448f61ce8534a518e
+      internalID: 1472612757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_100
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f447cc746df0bc649be9249ff71748aa
+      internalID: 1912485431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_101
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4fb8a31e7de5344b046bbccdac45e1
+      internalID: 719346960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_102
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d19faee592c1894ca6b9acf903d05be
+      internalID: 389032087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_103
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e247a3611c0684fa8c5ce6d3942c30
+      internalID: 1279378859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_104
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6a6dfc2473f9d45a0466ed708aca76
+      internalID: -166024092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_105
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361e4f2e04d4e7840a6c9de30d3e33fb
+      internalID: -665043025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_106
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66fd008bf17ed542a6e74410a437bbd
+      internalID: -150262222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_107
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1200
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3878b9295b36244591950e0a0755d50
+      internalID: 1134814584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52503fdd5ea5d9c4d9ff64e53d14e777
+      internalID: 1998387014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_109
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c224d49068d682e4cbdcbe82a20337fd
+      internalID: 1474101596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_110
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e442ac093572e1d468da734b1b318af9
+      internalID: -977693430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_111
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b1a9f10d642b04f9862a574bf056d4
+      internalID: -853273794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_112
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa13404a690fae4c908b0deb125f839
+      internalID: 260272748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_113
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3e1c00895cf1241b8095dc7c37b006
+      internalID: 861426656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_114
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fa5651f3026fe4cbd0de5be47ddb3f
+      internalID: 1903452470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_115
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80be2e37e361e774292c2b23f027e980
+      internalID: -1372558765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_116
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab96b456445dbd741b267cc39fc3468b
+      internalID: 1795803322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_117
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb650ae85322fb4084158642312fc22
+      internalID: -120572016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_118
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe6b6ac22cccf64ab311eef24a0d5fb
+      internalID: 289392441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_119
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 960
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942f22094fb13154ebc1b04680e0a1c7
+      internalID: -906334753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde93bda8cddedf42867be59d93d2fef
+      internalID: 1893987459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_121
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7017a51b189ffc34c94d8cadb4fea137
+      internalID: -1704011267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_122
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d24ec5a34d5d749b8108ba5c05fd0f
+      internalID: -2068361996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_123
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cf0a72913b69443986b5ea0e5d989d
+      internalID: -991852537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_124
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61160f8cb4d5a5e4887a3ec4c6d8c83b
+      internalID: -763428503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_125
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57c17a736c8f694ca42c8815780bbf0
+      internalID: 947584540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_126
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269e3900da3835f48b5cc59e96951ef9
+      internalID: -1327782434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_127
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece84492c111c124b89eee6005ad49a0
+      internalID: -1661608955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_128
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d423f6ad0114a7e4a9a23c14d26d015c
+      internalID: -690902882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_129
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2a6feb0bee7aa4e99045a833ab1826
+      internalID: -1678793640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_130
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b92af533bb66342bad60a51bf1c011
+      internalID: -790449507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_131
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 720
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abc65da3ee110a43aa4b541e2baf3b6
+      internalID: 396929984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58de3db918d5a4643aa344f93a439f92
+      internalID: -1755102684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_133
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3034fee94d645fb4bbc36c9b2bf3d200
+      internalID: -2093598898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_134
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a156be4eeb0e2c74daff13d9c57e3506
+      internalID: -831508031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_135
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f2745d17df8214cb6b5b5b76bf7128
+      internalID: 1743261585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_136
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f95b159182aee44b3c8e016b0ddbee
+      internalID: 364499261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_137
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c230f99e5686e974aa599d9a9fdb60ff
+      internalID: 855334554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_138
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe69e08375d33e499f052a24bff7664
+      internalID: 688334456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_139
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d195a5ddeb02642850ae3e2c29affd
+      internalID: -264403428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_140
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3db08e09b1305d42928eafa4306dfab
+      internalID: -1653222541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_141
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0533a47f0f7b5448a2d05baf1cc7c5
+      internalID: -109854104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_142
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4328b39c933fede43be56c5ae3536107
+      internalID: 2082132604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_143
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 480
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f90b395cccf514a9b62d137b5adaf8
+      internalID: 1057944850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23464e18411b70c46a2d283b2c16fa7e
+      internalID: -1902935326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_145
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328baec602cad8b4a8a87849b9ade048
+      internalID: -682534810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_146
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 240
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9109ac34ee40f34fbf6228d0efbd236
+      internalID: -961416800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_147
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 240
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce86db2352b93df47b591e73b8324881
+      internalID: 1963476737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_148
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 240
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e19b80ad5a7231458d334c2816520d3
+      internalID: -1181254658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_149
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 240
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7de19eb24d85e4da8b93771df6ecb3
+      internalID: 879324251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_150
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 240
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99157b0973293f43866f593d62033d6
+      internalID: 1879061066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_151
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 240
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f687d992739fcd944a56c4cfe9a5995f
+      internalID: -1906709570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion VFX_152
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 240
+        width: 300
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1e24e64c5687b489d6c04db5dd0605
+      internalID: 1453989237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 84af0b8d12fdce54284787f66a7e2e96
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Explosion VFX_0: -1119638520
+      Explosion VFX_1: 1097215072
+      Explosion VFX_10: 882767353
+      Explosion VFX_100: 1912485431
+      Explosion VFX_101: 719346960
+      Explosion VFX_102: 389032087
+      Explosion VFX_103: 1279378859
+      Explosion VFX_104: -166024092
+      Explosion VFX_105: -665043025
+      Explosion VFX_106: -150262222
+      Explosion VFX_107: 1134814584
+      Explosion VFX_108: 1998387014
+      Explosion VFX_109: 1474101596
+      Explosion VFX_11: -1482459653
+      Explosion VFX_110: -977693430
+      Explosion VFX_111: -853273794
+      Explosion VFX_112: 260272748
+      Explosion VFX_113: 861426656
+      Explosion VFX_114: 1903452470
+      Explosion VFX_115: -1372558765
+      Explosion VFX_116: 1795803322
+      Explosion VFX_117: -120572016
+      Explosion VFX_118: 289392441
+      Explosion VFX_119: -906334753
+      Explosion VFX_12: 1330792546
+      Explosion VFX_120: 1893987459
+      Explosion VFX_121: -1704011267
+      Explosion VFX_122: -2068361996
+      Explosion VFX_123: -991852537
+      Explosion VFX_124: -763428503
+      Explosion VFX_125: 947584540
+      Explosion VFX_126: -1327782434
+      Explosion VFX_127: -1661608955
+      Explosion VFX_128: -690902882
+      Explosion VFX_129: -1678793640
+      Explosion VFX_13: 30536956
+      Explosion VFX_130: -790449507
+      Explosion VFX_131: 396929984
+      Explosion VFX_132: -1755102684
+      Explosion VFX_133: -2093598898
+      Explosion VFX_134: -831508031
+      Explosion VFX_135: 1743261585
+      Explosion VFX_136: 364499261
+      Explosion VFX_137: 855334554
+      Explosion VFX_138: 688334456
+      Explosion VFX_139: -264403428
+      Explosion VFX_14: 484761959
+      Explosion VFX_140: -1653222541
+      Explosion VFX_141: -109854104
+      Explosion VFX_142: 2082132604
+      Explosion VFX_143: 1057944850
+      Explosion VFX_144: -1902935326
+      Explosion VFX_145: -682534810
+      Explosion VFX_146: -961416800
+      Explosion VFX_147: 1963476737
+      Explosion VFX_148: -1181254658
+      Explosion VFX_149: 879324251
+      Explosion VFX_15: 1468432134
+      Explosion VFX_150: 1879061066
+      Explosion VFX_151: -1906709570
+      Explosion VFX_152: 1453989237
+      Explosion VFX_16: -359409782
+      Explosion VFX_17: 283355528
+      Explosion VFX_18: 517115335
+      Explosion VFX_19: 544175589
+      Explosion VFX_2: 1737054418
+      Explosion VFX_20: 20887414
+      Explosion VFX_21: 1137336453
+      Explosion VFX_22: 644769079
+      Explosion VFX_23: -718697518
+      Explosion VFX_24: 140033313
+      Explosion VFX_25: 640979106
+      Explosion VFX_26: 467080710
+      Explosion VFX_27: -908431188
+      Explosion VFX_28: 2100233731
+      Explosion VFX_29: -497524805
+      Explosion VFX_3: 75451875
+      Explosion VFX_30: -7906112
+      Explosion VFX_31: -1312759489
+      Explosion VFX_32: -2021275924
+      Explosion VFX_33: -1424811515
+      Explosion VFX_34: 434858708
+      Explosion VFX_35: 278906111
+      Explosion VFX_36: 1506657638
+      Explosion VFX_37: 796948877
+      Explosion VFX_38: -1720987417
+      Explosion VFX_39: 642172718
+      Explosion VFX_4: 1565572757
+      Explosion VFX_40: 1200206606
+      Explosion VFX_41: 1353965465
+      Explosion VFX_42: 1260217849
+      Explosion VFX_43: -1561237216
+      Explosion VFX_44: 969765949
+      Explosion VFX_45: -930856572
+      Explosion VFX_46: 1060085119
+      Explosion VFX_47: 1140545947
+      Explosion VFX_48: -2132020383
+      Explosion VFX_49: 1075021162
+      Explosion VFX_5: -1777495820
+      Explosion VFX_50: -761942055
+      Explosion VFX_51: -339385524
+      Explosion VFX_52: -538447478
+      Explosion VFX_53: -682959793
+      Explosion VFX_54: 209851400
+      Explosion VFX_55: -961825898
+      Explosion VFX_56: -483537282
+      Explosion VFX_57: -432015768
+      Explosion VFX_58: -1228417439
+      Explosion VFX_59: 1107633080
+      Explosion VFX_6: 1357425879
+      Explosion VFX_60: -180239212
+      Explosion VFX_61: 710066123
+      Explosion VFX_62: 65078330
+      Explosion VFX_63: -1372036491
+      Explosion VFX_64: 174612710
+      Explosion VFX_65: 1052154830
+      Explosion VFX_66: 1586648861
+      Explosion VFX_67: 352270668
+      Explosion VFX_68: -804427218
+      Explosion VFX_69: 139928651
+      Explosion VFX_7: -1404849370
+      Explosion VFX_70: 538789788
+      Explosion VFX_71: 2016751168
+      Explosion VFX_72: -1665693901
+      Explosion VFX_73: -1027001792
+      Explosion VFX_74: -860471038
+      Explosion VFX_75: 1124468106
+      Explosion VFX_76: 863633716
+      Explosion VFX_77: 187794051
+      Explosion VFX_78: -66458900
+      Explosion VFX_79: 2054901921
+      Explosion VFX_8: -431597511
+      Explosion VFX_80: 1382228919
+      Explosion VFX_81: -300306885
+      Explosion VFX_82: 660834904
+      Explosion VFX_83: -66248932
+      Explosion VFX_84: 1339687568
+      Explosion VFX_85: 839334563
+      Explosion VFX_86: -2095551342
+      Explosion VFX_87: 719201941
+      Explosion VFX_88: 1169333802
+      Explosion VFX_89: -363136317
+      Explosion VFX_9: -1791178280
+      Explosion VFX_90: 355698338
+      Explosion VFX_91: 980015842
+      Explosion VFX_92: -1157675410
+      Explosion VFX_93: 1665937383
+      Explosion VFX_94: 1317076881
+      Explosion VFX_95: -1551891056
+      Explosion VFX_96: -1392767563
+      Explosion VFX_97: 840257548
+      Explosion VFX_98: 86467640
+      Explosion VFX_99: 1472612757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
