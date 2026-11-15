@@ -55,11 +55,22 @@ public abstract class Spell : MonoBehaviour
     /// <summary>Everything except cooldown/CanAct - for UI.</summary>
     public bool IsAllowed => (GlobalRule == null || GlobalRule(this)) && IsUsable() && CanAffordCost;
 
+    /// <summary>(spell, reason) - why a key press didn't cast. Debug console listens.</summary>
+    public static event Action<Spell, string> CastBlocked;
+
     /// <summary>Called by SpellCaster when the slot key is pressed.</summary>
     public bool TryCast()
     {
-        if (player == null || !player.CanAct || IsOnCooldown) return false;
-        if (!IsAllowed || !CanCast()) return false;
+        string why = null;
+        if (player == null) why = "no player";
+        else if (!player.CanAct) why = "player can't act (actions locked)";
+        else if (IsOnCooldown) why = $"on cooldown ({CooldownRemaining:0.00}s left)";
+        else if (GlobalRule != null && !GlobalRule(this)) why = "blocked by Spell.GlobalRule";
+        else if (!IsUsable()) why = "IsUsable() returned false";
+        else if (!CanAffordCost) why = $"not enough Light ({(Light != null ? Light.Current : 0f):0.#}/{LightCost}) and can't pay the rest in health";
+        else if (!CanCast()) why = "CanCast() returned false (already aiming / waiting for mouse release)";
+        if (why != null) { CastBlocked?.Invoke(this, why); return false; }
+
         Begin();
         return true;
     }

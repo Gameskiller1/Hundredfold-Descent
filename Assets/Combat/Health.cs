@@ -70,16 +70,20 @@ public class Health : MonoBehaviour, IDamageable
 
     // =====================  DAMAGE  =====================
 
+    /// <summary>(target, hit, reason) - a hit that did NOT land. Debug console listens.</summary>
+    public static event Action<Health, DamageInfo, string> Rejected;
+
     public bool TakeDamage(DamageInfo info)
     {
-        if (!IsAlive || info.amount <= 0f) return false;
-        if (!allowFriendlyFire && info.faction != Faction.Neutral && info.faction == faction) return false;
-        if (IsInvulnerable && !info.ignoreInvulnerability) return false;
+        if (!IsAlive) { Rejected?.Invoke(this, info, "target already dead"); return false; }
+        if (info.amount <= 0f) { Rejected?.Invoke(this, info, "damage is 0"); return false; }
+        if (!allowFriendlyFire && info.faction != Faction.Neutral && info.faction == faction) { Rejected?.Invoke(this, info, $"friendly fire (both {faction})"); return false; }
+        if (IsInvulnerable && !info.ignoreInvulnerability) { Rejected?.Invoke(this, info, invulnerableLocks > 0 ? "invulnerable (lock)" : "invulnerable (i-frames after last hit)"); return false; }
 
         float amount = info.amount;
         if (info.type != DamageType.Pure) amount *= ResistanceFor(info.type);
         if (DamageModifier != null) amount *= DamageModifier(info);
-        if (amount <= 0f) return false;
+        if (amount <= 0f) { Rejected?.Invoke(this, info, "immune / blocked by resistance or DamageModifier"); return false; }
 
         info.amount = amount;
         invulnerableUntil = Time.time + invulnerableAfterHit;

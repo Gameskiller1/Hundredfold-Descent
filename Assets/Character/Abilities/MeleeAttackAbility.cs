@@ -1,41 +1,66 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// The player's main attack. Put it on AbilitiesChild next to Dash/Jump and assign the "Attack" input.
-/// Plays the Attack animation, then hits everything in front of the player (once each).
-/// Enemies need Health + a collider on a layer included in Hit Layers.
+/// The player's main attack (LMB). Put it on AbilitiesChild next to Dash/Jump, assign the "Attack" input.
+/// Two hit zones, each can be turned on/off:
+///   - Front box: the swing in front of the player (mirrored by facing)
+///   - Around circle: close-range hit all around the player (stops enemies hugging your back)
+/// Timing: windup -> active window (hit zones live, each target hit once) -> recovery.
 /// </summary>
 public class MeleeAttackAbility : PlayerAbility
 {
-    [Header("Attack")]
+    [Header("Damage")]
     [SerializeField, Min(0f)] private float damage = 15f;
     [SerializeField] private DamageType damageType = DamageType.Physical;
-    [Tooltip("Seconds from pressing the button until the hit lands (match the swing frame).")]
-    [SerializeField, Min(0f)] private float hitDelay = 0.1f;
-    [Tooltip("Total attack time. <= 0 = length of the Attack animation.")]
-    [SerializeField] private float attackDuration = -1f;
+    [Tooltip("Set to the Enemies layer (and breakables).")]
+    [SerializeField] private LayerMask hitLayers;
+
+    [Header("Timing (seconds)")]
+    [Tooltip("From click until the hit zones turn on (match the swing frame).")]
+    [SerializeField, Min(0f)] private float windup = 0.1f;
+    [Tooltip("How long the hit zones stay on.")]
+    [SerializeField, Min(0f)] private float activeTime = 0.1f;
+    [Tooltip("After the hit, before you can act again. <0 = rest of the Attack animation.")]
+    [SerializeField] private float recovery = -1f;
+
+    [Header("Rules")]
     [SerializeField] private bool allowInAir = true;
     [Tooltip("Stand still while swinging. Off = keep walking.")]
     [SerializeField] private bool lockMovement = true;
 
-    [Header("Hit Box")]
-    [SerializeField] private Vector2 hitBoxSize = new Vector2(1.4f, 1.2f);
-    [Tooltip("Relative to the player's pivot. X is mirrored by facing.")]
-    [SerializeField] private Vector2 hitBoxOffset = new Vector2(0.9f, 0.6f);
-    [Tooltip("Set to the Enemies layer (and breakables...).")]
-    [SerializeField] private LayerMask hitLayers;
+    [Header("Front Hit Box")]
+    [SerializeField] private bool useFrontBox = true;
+    [SerializeField] private Vector2 frontSize = new Vector2(1.4f, 1.2f);
+    [Tooltip("From the player's pivot. X is mirrored by facing.")]
+    [SerializeField] private Vector2 frontOffset = new Vector2(0.9f, 0.6f);
+    [SerializeField, Min(0f)] private float frontDamageMultiplier = 1f;
+    [SerializeField, Min(0f)] private float frontKnockbackX = 5f;
+    [SerializeField, Min(0f)] private float frontKnockbackY = 2f;
 
-    [Header("Knockback (on enemies)")]
-    [SerializeField, Min(0f)] private float knockbackX = 5f;
-    [SerializeField, Min(0f)] private float knockbackY = 2f;
+    [Header("Around Hit Circle")]
+    [SerializeField] private bool useAroundCircle = true;
+    [SerializeField, Min(0f)] private float aroundRadius = 0.8f;
+    [SerializeField] private Vector2 aroundOffset = new Vector2(0f, 0.6f);
+    [Tooltip("Usually weaker than the front swing.")]
+    [SerializeField, Min(0f)] private float aroundDamageMultiplier = 0.5f;
+    [SerializeField, Min(0f)] private float aroundKnockbackX = 3f;
+    [SerializeField, Min(0f)] private float aroundKnockbackY = 1f;
+
+    [Header("Debug")]
+    [SerializeField] private bool logToConsole = false;
 
     public bool IsAttacking { get; private set; }
 
-    /// <summary>Fires for every enemy/object hit (hit-stop, sounds, gain Light...).</summary>
-    public event System.Action<Health> Hit;
+    // Hooks (debug console, sounds, hit-stop, camera shake...)
+    public event Action Started;              // after the click passed all checks
+    public event Action HitWindowOpened;
+    public event Action<Health, bool> Hit;    // (target, fromFrontBox)
+    public event Action Finished;
 
+    private readonly HashSet<Health> hitThisSwing = new HashSet<Health>();
     private bool movementLocked;
 
     protected override bool CanActivate() => !IsAttacking && (allowInAir || player.IsGrounded);
@@ -45,10 +70,13 @@ public class MeleeAttackAbility : PlayerAbility
     private IEnumerator AttackRoutine()
     {
         IsAttacking = true;
+        hitThisSwing.Clear();
+        Log("attack started");
+        Started?.Invoke();
 
-        float total = attackDuration > 0f ? attackDuration
-                    : (player.Anim != null ? player.Anim.GetLength(PlayerAnim.Attack) : 0.3f);
-        float delay = Mathf.Min(hitDelay, total);
+        float animLength = player.Anim != null ? player.Anim.GetLength(PlayerAnim.Attack) : 0.3f;
+        float rec = recovery >= 0f ? recovery : Mathf.Max(0f, animLength - windup - activeTime);
+        float total = windup + activeTime + rec;
 
         if (lockMovement)
         {
@@ -59,33 +87,68 @@ public class MeleeAttackAbility : PlayerAbility
 
         player.Anim?.PlayOneShot(PlayerAnim.Attack, null, total);
 
-        yield return new WaitForSeconds(delay);
-        DoHit();
-        yield return new WaitForSeconds(total - delay);
+        if (windup > 0f) yield return new WaitForSeconds(windup);
+
+        Log("hit window open");
+        HitWindowOpened?.Invoke();
+        float t = 0f;
+        do
+        {
+            CheckHits();
+            t += Time.deltaTime;
+            yield return null;
+        } while (t < activeTime);
+
+        if (rec > 0f) yield return new WaitForSeconds(rec);
 
         EndAttack();
     }
 
-    private void DoHit()
+    private void CheckHits()
     {
         Vector2 origin = player.transform.position;
-        Vector2 center = origin + new Vector2(hitBoxOffset.x * player.FacingSign, hitBoxOffset.y);
+        int f = player.FacingSign;
 
-        foreach (var t in DamageUtil.Box(center, hitBoxSize, 0f, hitLayers))
+        // Front first: if a target is in both zones, it takes the front (stronger) hit
+        if (useFrontBox)
         {
-            Vector2 at = t.Collider.bounds.center;
-            var info = new DamageInfo(damage, Faction.Player, gameObject, damageType);
-            info.point = at;
-            info.knockback = DamageInfo.KnockbackAway(origin, at, knockbackX, knockbackY);
+            Vector2 c = origin + new Vector2(frontOffset.x * f, frontOffset.y);
+            foreach (var target in DamageUtil.Box(c, frontSize, 0f, hitLayers))
+                Strike(target, origin, frontDamageMultiplier, frontKnockbackX, frontKnockbackY, true);
+        }
 
-            if (t.Damageable.TakeDamage(info)) Hit?.Invoke(t.Damageable.Owner);
+        if (useAroundCircle)
+        {
+            Vector2 c = origin + aroundOffset;
+            foreach (var target in DamageUtil.Circle(c, aroundRadius, hitLayers))
+                Strike(target, origin, aroundDamageMultiplier, aroundKnockbackX, aroundKnockbackY, false);
+        }
+    }
+
+    private void Strike(DamageTarget target, Vector2 origin, float mult, float kx, float ky, bool front)
+    {
+        Health owner = target.Damageable.Owner;
+        if (owner != null && !hitThisSwing.Add(owner)) return;   // once per swing
+
+        Vector2 at = target.Collider.bounds.center;
+        var info = new DamageInfo(damage * mult, Faction.Player, gameObject, damageType);
+        info.point = at;
+        info.knockback = DamageInfo.KnockbackAway(origin, at, kx, ky);
+
+        if (target.Damageable.TakeDamage(info))
+        {
+            Log($"hit {target.Collider.name} for {info.amount:0.#} ({(front ? "front" : "around")})");
+            Hit?.Invoke(owner, front);
         }
     }
 
     private void EndAttack()
     {
         if (movementLocked) { movementLocked = false; player.UnlockMovement(); }
+        if (!IsAttacking) return;
         IsAttacking = false;
+        Log("attack finished");
+        Finished?.Invoke();
     }
 
     protected override void OnDisable()
@@ -94,12 +157,26 @@ public class MeleeAttackAbility : PlayerAbility
         if (IsAttacking) { StopAllCoroutines(); EndAttack(); }   // never leave the player locked
     }
 
+    private void Log(string msg)
+    {
+        if (logToConsole) Debug.Log($"[PlayerAttack] {msg}", this);
+    }
+
     private void OnDrawGizmosSelected()
     {
         var p = GetComponentInParent<PlayerController>();
-        int facing = p != null ? p.FacingSign : 1;
+        int f = p != null ? p.FacingSign : 1;
         Vector3 root = p != null ? p.transform.position : transform.position;
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireCube(root + new Vector3(hitBoxOffset.x * facing, hitBoxOffset.y), hitBoxSize);
+
+        if (useFrontBox)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireCube(root + new Vector3(frontOffset.x * f, frontOffset.y), frontSize);
+        }
+        if (useAroundCircle)
+        {
+            Gizmos.color = new Color(0.3f, 1f, 0.6f, 0.6f);
+            Gizmos.DrawWireSphere(root + (Vector3)aroundOffset, aroundRadius);
+        }
     }
 }

@@ -226,6 +226,7 @@ public class Enemy : MonoBehaviour
 
     private void OnDamaged(DamageInfo info)
     {
+
         if (IsDead || !Health.IsAlive) return;   // the killing blow is handled by OnHealthDied
 
         Brain?.OnHurt(info);
@@ -292,7 +293,7 @@ public class Enemy : MonoBehaviour
 
         Rb.linearVelocity = Vector2.zero;
         Rb.simulated = false;                       // body is frozen (and its colliders are off)
-
+        foreach (var r in flipRenderers) if (r != null) r.color = new Color(r.color.r, r.color.b, r.color.g, 0f);
         if (corpseLifetime < 0f) yield break;       // stays forever
         yield return new WaitForSeconds(corpseLifetime);
         Destroy(gameObject);

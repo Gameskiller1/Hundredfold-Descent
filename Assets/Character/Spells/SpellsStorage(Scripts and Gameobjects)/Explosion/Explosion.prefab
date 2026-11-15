@@ -47,14 +47,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visual: {fileID: 2406655658801668695}
   duration: -1
-  dealDamage: 0
+  dealDamage: 1
   damage: 25
-  hitDelay: 0.4
+  damageType: 2
+  hitDelay: 0.25
   radius: 1.5
-  hitOffset: {x: 0, y: 0.75}
+  hitOffset: {x: 0, y: 0.1}
   hitLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   edgeMultiplier: 0.5
   knockbackForce: 8
   upwardBias: 0.5

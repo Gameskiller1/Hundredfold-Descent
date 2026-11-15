@@ -435,10 +435,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visual: {fileID: 4168154092529072972}
   duration: -1
-  dealDamage: 0
-  hitDelay: 0.1
+  dealDamage: 1
+  damage: 30
+  damageType: 1
+  hitDelay: 0.5
   hitBoxSize: {x: 1, y: 3}
   hitBoxOffset: {x: 0, y: 1.5}
   hitLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
