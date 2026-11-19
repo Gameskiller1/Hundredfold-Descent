@@ -221,5 +221,9 @@ public class PatrolChaseBrain : EnemyBrain
         Vector3 home = Application.isPlaying && enemy != null ? (Vector3)enemy.SpawnPosition : c;
         Gizmos.color = Color.green;
         Gizmos.DrawLine(home + Vector3.left * patrolDistance, home + Vector3.right * patrolDistance);
+
+        Vector3 enemyCenter = new Vector3(enemy.Center.x, enemy.Center.y, 0);
+        Vector3 eyeIcon = enemyCenter + new Vector3(eyeOffset.x, eyeOffset.y, 0);
+        Gizmos.DrawIcon(eyeIcon, "eye.png");
     }
 }
