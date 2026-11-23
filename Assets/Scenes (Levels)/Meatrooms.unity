@@ -254,61 +254,6 @@ MonoBehaviour:
   ledgeDropDepth: 0.6
   stopAtWalls: 1
   wallCheckDistance: 0.1
---- !u!1 &273526236 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1469937397124838478, guid: 689de96ba5ab9d141826da3ec8a0dc3b, type: 3}
-  m_PrefabInstance: {fileID: 485037365}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &273526247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273526236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc6dc35f41cf4dec9deafccc5e059a61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  renderers: []
-  flashColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
-  flashDuration: 0.22
-  flickerWhileInvulnerable: 1
-  flickerInterval: 0.05
-  flickerAlpha: 0.35
---- !u!114 &273526257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273526236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0665d2b69fac4d96b36dd0b79fbae844, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  knockbackLockTime: 0.2
-  autoRespawn: 0
-  respawnDelay: 2
---- !u!114 &273526258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273526236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 012b80683a244fa7bbf6228a2b4b7f21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  faction: 1
-  allowFriendlyFire: 0
-  invulnerableAfterHit: 0.8
-  resistances: []
 --- !u!1001 &309610718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -481,19 +426,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1469937397124838478, guid: 689de96ba5ab9d141826da3ec8a0dc3b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 273526247}
-    - targetCorrespondingSourceObject: {fileID: 1469937397124838478, guid: 689de96ba5ab9d141826da3ec8a0dc3b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 273526258}
-    - targetCorrespondingSourceObject: {fileID: 1469937397124838478, guid: 689de96ba5ab9d141826da3ec8a0dc3b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 273526257}
-    - targetCorrespondingSourceObject: {fileID: 7767863203447323248, guid: 689de96ba5ab9d141826da3ec8a0dc3b, type: 3}
-      insertIndex: 1
-      addedObject: {fileID: 752070561}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 689de96ba5ab9d141826da3ec8a0dc3b, type: 3}
 --- !u!1 &541059863
 GameObject:
@@ -1631,48 +1564,6 @@ MonoBehaviour:
   knockbackX: 6
   knockbackY: 4
   rehitInterval: 0.5
---- !u!1 &752070556 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7767863203447323248, guid: 689de96ba5ab9d141826da3ec8a0dc3b, type: 3}
-  m_PrefabInstance: {fileID: 485037365}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &752070561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752070556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49bed754f3744101a1a1bc5f4af9d290, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputAction: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  cooldown: 0
-  damage: 15
-  damageType: 0
-  hitLayers:
-    serializedVersion: 2
-    m_Bits: 256
-  windup: 0.1
-  activeTime: 0.1
-  recovery: -1
-  allowInAir: 1
-  lockMovement: 1
-  useFrontBox: 1
-  frontSize: {x: 1.4, y: 1.2}
-  frontOffset: {x: 0.9, y: 0.6}
-  frontDamageMultiplier: 1
-  frontKnockbackX: 5
-  frontKnockbackY: 2
-  useAroundCircle: 1
-  aroundRadius: 0.8
-  aroundOffset: {x: 0, y: 0.6}
-  aroundDamageMultiplier: 0.5
-  aroundKnockbackX: 3
-  aroundKnockbackY: 1
-  logToConsole: 0
 --- !u!1 &830053188
 GameObject:
   m_ObjectHideFlags: 0
@@ -15889,14 +15780,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 169998125198263113, guid: 5fbcc3355e2a5f240866d83bebe74997, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2734298664790939081, guid: 5fbcc3355e2a5f240866d83bebe74997, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3003736000159740519, guid: 5fbcc3355e2a5f240866d83bebe74997, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -15940,22 +15823,6 @@ PrefabInstance:
     - target: {fileID: 4148792649857337067, guid: 5fbcc3355e2a5f240866d83bebe74997, type: 3}
       propertyPath: m_Name
       value: Main Camera
-      objectReference: {fileID: 0}
-    - target: {fileID: 4148792649857337067, guid: 5fbcc3355e2a5f240866d83bebe74997, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7573434187229044915, guid: 5fbcc3355e2a5f240866d83bebe74997, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7573434187229044915, guid: 5fbcc3355e2a5f240866d83bebe74997, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7573434187229044915, guid: 5fbcc3355e2a5f240866d83bebe74997, type: 3}
-      propertyPath: m_Color.r
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16023,11 +15890,11 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 309610718}
+  - {fileID: 1903658704}
+  - {fileID: 485037365}
+  - {fileID: 1807697712}
   - {fileID: 1293009425}
   - {fileID: 1042917048}
-  - {fileID: 1807697712}
-  - {fileID: 485037365}
-  - {fileID: 1903658704}
-  - {fileID: 309610718}
   - {fileID: 650260354}
   - {fileID: 12480095}
