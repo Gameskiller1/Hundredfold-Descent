@@ -6,7 +6,7 @@ using System.Reflection;
 using UnityEngine;
 
 public enum LogLevel { Trace, Info, Success, Warning, Error, Critical, Command }
-public enum LogCat { System, Input, Player, Ability, Anim, Spell, Light, Combat, Enemy, Boss, Scene, Console }
+public enum LogCat { System, Input, Player, Ability, Anim, Spell, Light, Combat, Enemy, Boss, Scene, Console, Interact }
 
 public struct LogEntry
 {
