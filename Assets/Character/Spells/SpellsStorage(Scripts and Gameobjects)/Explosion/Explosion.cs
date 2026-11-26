@@ -1,6 +1,5 @@
 
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>Goes on the ROOT of the explosion prefab. Child visual is toggled automatically.</summary>
@@ -9,6 +8,7 @@ public class Explosion : SpellEffect
     [Header("Damage")]
     [SerializeField] private bool dealDamage = false;
     [SerializeField, Min(0f)] private float damage = 25f;
+    [SerializeField] private DamageType damageType = DamageType.Explosion;
     [Tooltip("Seconds after the explosion starts until the blast (match the impact frame).")]
     [SerializeField] private float hitDelay = 0.4f;
     [SerializeField, Min(0f)] private float radius = 1.5f;
@@ -22,8 +22,6 @@ public class Explosion : SpellEffect
     [SerializeField, Min(0f)] private float knockbackForce = 8f;
     [Tooltip("Extra upward push so things get launched instead of slid along the floor.")]
     [SerializeField, Min(0f)] private float upwardBias = 0.5f;
-
-    private readonly HashSet<Object> alreadyHit = new HashSet<Object>();
 
     protected override IEnumerator PlayRoutine(float length)
     {
@@ -42,35 +40,34 @@ public class Explosion : SpellEffect
     private void DoHit()
     {
         Vector2 center = (Vector2)transform.position + hitOffset;
-        alreadyHit.Clear();
 
-        foreach (var h in Physics2D.OverlapCircleAll(center, radius, hitLayers))
+        // damageablesOnly: false -> loose physics props (crates...) get shoved too
+        foreach (var t in DamageUtil.Circle(center, radius, hitLayers, damageablesOnly: false))
         {
-            // One hit per object, even if it has several colliders
-            Object key = h.attachedRigidbody != null ? h.attachedRigidbody : (Object)h.transform.root;
-            if (!alreadyHit.Add(key)) continue;
+            Vector2 at = t.Collider.bounds.center;
+            float dist = Vector2.Distance(center, t.Collider.ClosestPoint(center));
+            float multiplier = Mathf.Lerp(1f, edgeMultiplier, radius > 0f ? Mathf.Clamp01(dist / radius) : 0f);
 
-            Vector2 closest = h.ClosestPoint(center);
-            float t = radius > 0f ? Mathf.Clamp01(Vector2.Distance(center, closest) / radius) : 0f;
-            float multiplier = Mathf.Lerp(1f, edgeMultiplier, t);
+            Vector2 dir = at - center;
+            if (dir.sqrMagnitude < 0.0001f) dir = Vector2.up;
+            dir = (dir.normalized + Vector2.up * upwardBias).normalized;
+            Vector2 push = dir * knockbackForce * multiplier;
 
-            // TODO: your health system, e.g. h.GetComponentInParent<Health>()?.TakeDamage(damage * multiplier);
-            Debug.Log($"[Explosion] Hit {h.name} for {damage * multiplier:0.#}", h);
-
-            ApplyKnockback(h, center, multiplier);
+            if (t.Damageable != null)
+            {
+                // Enemies handle their own knockback from the hit info
+                var info = new DamageInfo(damage * multiplier, Faction.Player, gameObject, damageType);
+                info.point = at;
+                info.knockback = push;
+                t.Damageable.TakeDamage(info);
+            }
+            else
+            {
+                var rb = t.Collider.attachedRigidbody;
+                if (knockbackForce > 0f && rb != null && rb.bodyType == RigidbodyType2D.Dynamic)
+                    rb.AddForce(push, ForceMode2D.Impulse);
+            }
         }
-    }
-
-    private void ApplyKnockback(Collider2D h, Vector2 center, float multiplier)
-    {
-        var rb = h.attachedRigidbody;
-        if (knockbackForce <= 0f || rb == null || rb.bodyType != RigidbodyType2D.Dynamic) return;
-
-        Vector2 dir = (Vector2)h.bounds.center - center;
-        if (dir.sqrMagnitude < 0.0001f) dir = Vector2.up;
-        dir = (dir.normalized + Vector2.up * upwardBias).normalized;
-
-        rb.AddForce(dir * knockbackForce * multiplier, ForceMode2D.Impulse);
     }
 
     private void OnDrawGizmosSelected()

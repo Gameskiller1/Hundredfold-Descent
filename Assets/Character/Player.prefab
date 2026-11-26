@@ -101,7 +101,10 @@ GameObject:
   - component: {fileID: 5899637724681281756}
   - component: {fileID: 2863348297889070}
   - component: {fileID: 5476118078680359222}
-  m_Layer: 0
+  - component: {fileID: 8438769559702564303}
+  - component: {fileID: 1837399651207728153}
+  - component: {fileID: 7018216874778862566}
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -328,6 +331,9 @@ MonoBehaviour:
   startLight: 100
   regenPerSecond: 5
   regenDelay: 1
+  overdrawCostsHealth: 1
+  healthPerMissingLight: 1
+  overdrawCanKill: 0
 --- !u!114 &5476118078680359222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,6 +357,56 @@ MonoBehaviour:
   cancelAction: {fileID: 3458100959820982277, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   pointAction: {fileID: 0}
   dimOverlayPrefab: {fileID: 0}
+--- !u!114 &8438769559702564303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469937397124838478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc6dc35f41cf4dec9deafccc5e059a61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderers: []
+  flashColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+  flashDuration: 0.22
+  flickerWhileInvulnerable: 1
+  flickerInterval: 0.05
+  flickerAlpha: 0.35
+--- !u!114 &1837399651207728153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469937397124838478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012b80683a244fa7bbf6228a2b4b7f21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  faction: 1
+  allowFriendlyFire: 0
+  invulnerableAfterHit: 0.8
+  resistances: []
+--- !u!114 &7018216874778862566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469937397124838478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0665d2b69fac4d96b36dd0b79fbae844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockbackLockTime: 0.2
+  autoRespawn: 0
+  respawnDelay: 2
 --- !u!1 &3093024941090124093
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,6 +447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2483423214675584549}
+  - component: {fileID: 2795016673415802143}
   - component: {fileID: 396843332566051218}
   - component: {fileID: 1789407470042255084}
   - component: {fileID: 698452476390757902}
@@ -416,6 +473,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1204997338897725124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2795016673415802143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767863203447323248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bed754f3744101a1a1bc5f4af9d290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputAction: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  cooldown: 0
+  damage: 15
+  damageType: 0
+  hitLayers:
+    serializedVersion: 2
+    m_Bits: 256
+  windup: 0.1
+  activeTime: 0.1
+  recovery: -1
+  allowInAir: 1
+  lockMovement: 1
+  useFrontBox: 1
+  frontSize: {x: 1.4, y: 1.2}
+  frontOffset: {x: 0.9, y: 0.6}
+  frontDamageMultiplier: 1
+  frontKnockbackX: 5
+  frontKnockbackY: 2
+  useAroundCircle: 1
+  aroundRadius: 0.8
+  aroundOffset: {x: 0, y: 0.6}
+  aroundDamageMultiplier: 0.5
+  aroundKnockbackX: 3
+  aroundKnockbackY: 1
+  logToConsole: 0
 --- !u!114 &396843332566051218
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -397,7 +397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2657999599030945815}
-  - component: {fileID: -5289423888021285735}
+  - component: {fileID: 8996098336329249093}
   m_Layer: 0
   m_Name: LightningStrike
   m_TagString: Untagged
@@ -421,7 +421,7 @@ Transform:
   - {fileID: 1069364101578413434}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-5289423888021285735
+--- !u!114 &8996098336329249093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -435,12 +435,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visual: {fileID: 4168154092529072972}
   duration: -1
-  dealDamage: 0
+  dealDamage: 1
   damage: 30
   damageType: 1
-  hitDelay: 0.1
+  hitDelay: 0.5
   hitBoxSize: {x: 1, y: 3}
   hitBoxOffset: {x: 0, y: 1.5}
   hitLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256

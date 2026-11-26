@@ -38,14 +38,25 @@ public abstract class PlayerAbility : MonoBehaviour
     // Input callback -> same path as code activation
     private void HandleInput(InputAction.CallbackContext ctx) => TryActivate();
 
+    /// <summary>(ability, reason) - why a press did nothing. Debug console listens.</summary>
+    public static event System.Action<PlayerAbility, string> Blocked;
+    /// <summary>An ability actually started.</summary>
+    public static event System.Action<PlayerAbility> Activated;
+
     /// <summary>Can also be called from code (AI, UI buttons, combos...)</summary>
     public bool TryActivate()
     {
         // All shared checks in one place
-        if (!enabled || player == null || !player.CanAct || IsOnCooldown || !CanActivate())
-            return false;
+        string why = null;
+        if (!enabled) why = "ability is disabled";
+        else if (player == null) why = "no PlayerController found";
+        else if (!player.CanAct) why = "player can't act (actions locked)";
+        else if (IsOnCooldown) why = $"on cooldown ({CooldownRemaining:0.00}s left)";
+        else if (!CanActivate()) why = "CanActivate() returned false";
+        if (why != null) { Blocked?.Invoke(this, why); return false; }
 
         lastUseTime = Time.time; // start cooldown
+        Activated?.Invoke(this);
         Activate();
         return true;
     }
@@ -55,4 +66,6 @@ public abstract class PlayerAbility : MonoBehaviour
 
     /// <summary>What the ability does.</summary>
     protected abstract void Activate();
+
+
 }
